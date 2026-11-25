@@ -2,7 +2,7 @@
 
 SEO-first, platform-aware website design and development Skill.
 
-**Independent acceptance: RELEASE-ready for instruction Skill distribution (25 November 2026).** Prior fresh-agent, SEO fixture, native WordPress, Shopify Theme Check, visual and focus-delta gates accepted within tested scope. See `CURRENT-ACCEPTANCE.md` for exact evidence and limitations. Public repository publication and GitHub CI are pending owner approval.
+**Independent acceptance: RELEASE-ready for instruction Skill distribution (25 November 2026).** Prior fresh-agent, SEO fixture, native WordPress, Shopify Theme Check, visual and focus-delta gates accepted within tested scope. See `CURRENT-ACCEPTANCE.md` for exact evidence and limitations. Public source publication was authorized and completed; GitHub CI confirmation is pending the release-contract correction.
 
 ## Start here
 

@@ -31,7 +31,7 @@ Shopify native storefront, Elementor/WooCommerce runtime, optional BeyondSEO/SEO
 
 ## Publication preparation
 
-This release archive changes only release-status documentation and the root manifest. All previously reviewed Skill instructions, references, tests, example source, nested manifests and historical evidence remain byte-identical. Prior reports remain historical; no accepted test suites were rerun. The new archive has its own manifest and hash. Public GitHub publication and CI on the actual committed tree are still pending; obtain owner approval, use a dedicated repository, and record the actual commit/CI outcome. No demo deployment authorized.
+This release archive changes only release-status documentation and the root manifest. All previously reviewed Skill instructions, references, tests, example source, nested manifests and historical evidence remain byte-identical. Prior reports remain historical; no accepted test suites were rerun. The new archive has its own manifest and hash. Owner-authorized public source publication succeeded at `c144ec25d40c8553b407463347c1c456f06fab23`. GitHub Actions run 45643961294 failed on a stale HOLD assertion in the integration contract after the release-status documents changed. This narrow correction updates the contract to enforce current release status and unchanged verification limitations; CI confirmation remains pending. No demo deployment authorized.
 
 
 ---

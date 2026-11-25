@@ -20,7 +20,13 @@ class IntegrationContract(unittest.TestCase):
   s=text('templates/SEO-DECISION-LEDGER.md')
   for term in ['Evidence source/date/locale','Observed evidence','NOT RUN']: self.assertIn(term,s)
  def test_release_boundary(self):
-  self.assertIn('HOLD',text('RELEASE-CHECKLIST.md').splitlines()[0]);self.assertIn('Shopify native preview remains BLOCKED',text('README.md'));self.assertIn('Elementor/WooCommerce runtime',text('README.md'))
+  current=text('CURRENT-ACCEPTANCE.md').split('## Historical record',1)[0]
+  readme=text('README.md').split('## Historical record',1)[0]
+  self.assertIn('RELEASE-ready for public distribution of the instruction Skill',current)
+  self.assertIn('RELEASE-ready for instruction Skill distribution',readme)
+  self.assertIn('Shopify native storefront, Elementor/WooCommerce runtime',current)
+  self.assertIn('Shopify storefront, Elementor/WooCommerce runtime, external tool execution and production launches are not verified.',readme)
+  self.assertIn('No search ranking, WCAG or production certification.',readme)
  def test_no_vendored_beyondseo(self):
   self.assertFalse(any(p.name.lower()=='beyond-seo' for p in R.rglob('*')))
 if __name__=='__main__': unittest.main(verbosity=2)

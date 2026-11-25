@@ -3,8 +3,9 @@
 - [x] Prior independent agent, platform, SEO, browser and visual gates accepted within scope.
 - [x] All four current-surface focus defects resolved in independent Windows review; 384/384 live focus and 216/216 independent observations PASS.
 - [x] Final review report recorded with exact reviewed archive hash and preserved limitations.
-- [ ] Owner approval and dedicated GitHub repository.
-- [ ] Publish source and verify GitHub CI against the actual committed tree; record commit and release tag if supported.
+- [x] Owner approval and dedicated GitHub repository.
+- [x] Publish source (initial commit `c144ec25d40c8553b407463347c1c456f06fab23`).
+- [ ] Verify GitHub CI against the corrected committed tree; first run failed because the contract test expected the superseded HOLD status.
 
 No old test suites need replaying. No live demo deployment or paid services. See `CURRENT-ACCEPTANCE.md` for remaining unverified capabilities.
 

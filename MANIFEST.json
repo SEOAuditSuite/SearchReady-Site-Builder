@@ -1,7 +1,7 @@
 {
   "name": "SearchReady Site Builder",
   "version": "v0.3.1",
-  "status": "RELEASE-ready for instruction Skill distribution; owner approval and GitHub publication pending",
+  "status": "Public instruction Skill source published; release-contract CI correction awaiting confirmation",
   "files": [
     {
       "path": ".github/workflows/validate.yml",
@@ -30,8 +30,8 @@
     },
     {
       "path": "CURRENT-ACCEPTANCE.md",
-      "size": 6705,
-      "sha256": "7f2301af5f7ec6cc3d7b74b0355c588918bc61cf65c8bc8f9b441dc06771d66b"
+      "size": 6919,
+      "sha256": "9237ebd8fb68fe4c6e5d5217984c70aa944ea64cabacbeb95d9a3e52bc1621b3"
     },
     {
       "path": "CURRENT-FINAL-ACCEPTANCE-BRIEF.md",
@@ -75,8 +75,8 @@
     },
     {
       "path": "README.md",
-      "size": 9622,
-      "sha256": "d6a68700b7d5e83ce2d89011dcb07829a179c90b31e316e6ab0434d725d00c54"
+      "size": 9673,
+      "sha256": "9c7891c0566ac1d0a57552c9b2c442d6a62d36afa578b03f5e5b607bc5cf0f50"
     },
     {
       "path": "RELEASE-ACCEPTANCE.md",
@@ -85,8 +85,8 @@
     },
     {
       "path": "RELEASE-CHECKLIST.md",
-      "size": 4153,
-      "sha256": "455b0024af190bafb9c6cee7215fa6ad46b9090e418af504c90ce0ad922271c7"
+      "size": 4255,
+      "sha256": "c6fff1f7a9cb9052def6fd944d1dcfb76d76019aa94d25df8f9dc844b1f52103"
     },
     {
       "path": "REMEDIATION-AND-REVIEW-STATUS.md",
@@ -880,8 +880,8 @@
     },
     {
       "path": "tools/test_integration_contract.py",
-      "size": 1738,
-      "sha256": "c24d60999284fcdf7a063e14838adc3ec3ef87e0c57863bf61633c89ff123bd3"
+      "size": 2138,
+      "sha256": "ad08cbdb09902ceca505d0f8ae971ee6ae6681bc98dce2e3856f6cd3d9f50334"
     },
     {
       "path": "tools/test_release_delta.py",
