@@ -1,0 +1,62 @@
+{
+  "type": "real local HTTP transport; no browser navigation",
+  "checked": 9,
+  "passed": 9,
+  "failed": 0,
+  "details": [
+    {
+      "path": "/",
+      "status": 200,
+      "length": 4916,
+      "pass": true
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "length": 4916,
+      "pass": true
+    },
+    {
+      "path": "/services.html",
+      "status": 200,
+      "length": 4214,
+      "pass": true
+    },
+    {
+      "path": "/process.html",
+      "status": 200,
+      "length": 3756,
+      "pass": true
+    },
+    {
+      "path": "/contact.html",
+      "status": 200,
+      "length": 3863,
+      "pass": true
+    },
+    {
+      "path": "/assets/site.css",
+      "status": 200,
+      "length": 8850,
+      "pass": true
+    },
+    {
+      "path": "/assets/site.js",
+      "status": 200,
+      "length": 1781,
+      "pass": true
+    },
+    {
+      "path": "/assets/mark.svg",
+      "status": 200,
+      "length": 340,
+      "pass": true
+    },
+    {
+      "path": "/assets/hero-art.svg",
+      "status": 200,
+      "length": 1856,
+      "pass": true
+    }
+  ]
+}

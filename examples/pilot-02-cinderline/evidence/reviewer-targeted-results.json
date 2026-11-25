@@ -1,0 +1,41 @@
+{
+  "purpose": "Independent review targeted regressions only",
+  "results": [
+    {
+      "check": "Unchanged GET index works",
+      "status": "PASS",
+      "detail": "status=200"
+    },
+    {
+      "check": "HEAD matches GET content length without body",
+      "status": "PASS",
+      "detail": "status=200, length=4533, body=0"
+    },
+    {
+      "check": "Malformed extra form fields return HTTP 400",
+      "status": "PASS",
+      "detail": "status=400, bytes=21"
+    },
+    {
+      "check": "No dummy entries created by malformed request",
+      "status": "PASS",
+      "detail": "isolate demo DB row count=0"
+    },
+    {
+      "check": "Escape in form does not steal focus when menu closed",
+      "status": "PASS",
+      "detail": "remained=True"
+    },
+    {
+      "check": "Escape closes expanded menu and restores button focus",
+      "status": "PASS",
+      "detail": "closed=True, focused=True"
+    }
+  ],
+  "counts": {
+    "PASS": 6,
+    "FAIL": 0,
+    "BLOCKED": 0
+  },
+  "source": "reviewed copy; original ZIP preserved"
+}

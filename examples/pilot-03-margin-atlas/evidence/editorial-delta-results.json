@@ -1,0 +1,62 @@
+{
+  "scope": "Pilot 03 editorial delta only; HTTP URL browser NOT rerun; not complete WCAG audit",
+  "pass": 11,
+  "fail": 0,
+  "checks": [
+    {
+      "check": "the-art-of-noticing.html honest reading time",
+      "status": "PASS",
+      "detail": "229 words; label 2 MIN READ"
+    },
+    {
+      "check": "a-bench-is-a-small-promise.html honest reading time",
+      "status": "PASS",
+      "detail": "210 words; label 2 MIN READ"
+    },
+    {
+      "check": "Journal H1-H2-H3 landmark hierarchy",
+      "status": "PASS",
+      "detail": "['h1', 'h2', 'h3', 'h3']"
+    },
+    {
+      "check": "Journal section H2 is accessible not visually decorative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Journal cards have truthful reading times",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Generator-byte parity for five HTML pages and linked assets",
+      "status": "PASS",
+      "detail": "9 files compared; mismatch=[]"
+    },
+    {
+      "check": "Changed metadata is legible and no horizontal overflow at 320px",
+      "status": "PASS",
+      "detail": "{'width': 320, 'doc': 320, 'client': 320, 'artSize': 11, 'footerSize': 11, 'focus': [], 'heroLabel': 'MAP IS ILLUSTRATIVE, NOT GEOGRAPHIC\\n40\u00b0 / \u221e'}"
+    },
+    {
+      "check": "Changed metadata is legible and no horizontal overflow at 375px",
+      "status": "PASS",
+      "detail": "{'width': 375, 'doc': 375, 'client': 375, 'artSize': 11, 'footerSize': 11, 'focus': [], 'heroLabel': 'MAP IS ILLUSTRATIVE, NOT GEOGRAPHIC\\n40\u00b0 / \u221e'}"
+    },
+    {
+      "check": "Changed metadata is legible and no horizontal overflow at 1440px",
+      "status": "PASS",
+      "detail": "{'width': 1440, 'doc': 1440, 'client': 1440, 'artSize': 11, 'footerSize': 11, 'focus': [], 'heroLabel': 'MAP IS ILLUSTRATIVE, NOT GEOGRAPHIC\\n40\u00b0 / \u221e'}"
+    },
+    {
+      "check": "Dark editorial CTA keyboard focus has >=3:1 contrast",
+      "status": "PASS",
+      "detail": "{'focus': True, 'outline': 'rgb(255, 247, 230)', 'bg': 'rgb(25, 43, 53)'}, contrast=13.7"
+    },
+    {
+      "check": "Dark footer keyboard focus has >=3:1 contrast",
+      "status": "PASS",
+      "detail": "{'focus': True, 'outline': 'rgb(255, 247, 230)', 'bg': 'rgb(16, 28, 35)'}, contrast=16.25"
+    }
+  ]
+}

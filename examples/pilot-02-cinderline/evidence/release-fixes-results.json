@@ -1,0 +1,67 @@
+{
+  "scope": "D1-D5 focused remediation; preserves previously PASS checks",
+  "results": [
+    {
+      "check": "D1 hero-foot text contrast AA",
+      "status": "PASS",
+      "detail": "ratio 6.59"
+    },
+    {
+      "check": "D2 form controls border vs fill and panel AA",
+      "status": "PASS",
+      "detail": "min ratio 5.07"
+    },
+    {
+      "check": "D5 Pilot01 focus outline contrast",
+      "status": "PASS",
+      "detail": "ratio 6.36"
+    },
+    {
+      "check": "D3 invalid form returns 422 + linked summary",
+      "status": "PASS",
+      "detail": "status=422"
+    },
+    {
+      "check": "D3 per-field aria-invalid + aria-describedby",
+      "status": "PASS",
+      "detail": "field-level errors present"
+    },
+    {
+      "check": "D3 preserves valid entered field and focus script",
+      "status": "PASS",
+      "detail": "no row saved for invalid"
+    },
+    {
+      "check": "D4 successful POST issues HTTP 303",
+      "status": "PASS",
+      "detail": "status=303, count=1"
+    },
+    {
+      "check": "D4 redirected GET confirms session-bound receipt",
+      "status": "PASS",
+      "detail": "status=200, count=1"
+    },
+    {
+      "check": "D4 refresh GET never resubmits duplicate",
+      "status": "PASS",
+      "detail": "refresh count=1"
+    },
+    {
+      "check": "D4 unbound session cannot forge success",
+      "status": "PASS",
+      "detail": "guest status=200"
+    },
+    {
+      "check": "D6 reviewed HEAD fix preserved",
+      "status": "PASS",
+      "detail": "HEAD HTTP 200"
+    },
+    {
+      "check": "D10 reviewed Escape focus guard preserved",
+      "status": "PASS",
+      "detail": "menu-state check retained"
+    }
+  ],
+  "pass": 12,
+  "fail": 0
+}

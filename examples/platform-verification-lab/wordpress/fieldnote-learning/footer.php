@@ -1,0 +1,1 @@
+<footer class="site-footer"><div class="wrap"><p><?php echo esc_html(get_bloginfo('name')); ?></p><a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e('Home', 'fieldnote-learning'); ?></a></div></footer><?php wp_footer(); ?></body></html>

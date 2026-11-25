@@ -1,0 +1,7 @@
+# Goal, audience and honest scope
+
+Start from the user's real goal, not a generic landing-page template. Identify: kind of business, core audience geography/language, primary service/product, desired visitor action, preferred platform/budget, actual business credentials/location/contact, brand materials, page inventory, accessibility needs and domain/hosting status. Ask only high-impact unknowns; make reversible decisions independently. For commercial sites, distinguish transactional/lead-gen flows from brochure pages. A CTA must go somewhere real or be explicitly marked as a nonfunctional demo.
+
+Offer a compact, reasoned information architecture and pre-build effort estimate. Make an inventory of pages, components, states and interactions. Avoid blank "coming soon" pages, fabricated team biographies, copied competitor copy or trademark appropriation. Validate information source and imagery license. Label content as VERIFIED OWNER-PROVIDED, DRAFT FOR OWNER REVIEW, or PLACEHOLDER NOT FOR PUBLICATION. A missing production domain cannot be concealed by example.com canonicals.
+
+Provide a concrete acceptance definition: mobile navigation, visible primary action, complete pages, crawlable critical content, truthful SEO metadata, responsive/no-overflow, keyboard and screen reader essentials, measured performance evidence, content authenticity, working forms if requested, and suitable launch gate.

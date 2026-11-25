@@ -1,0 +1,11 @@
+{
+  "scope": "Pilot 03 pending real Chrome HTTP URL-navigation only",
+  "url_origin": "ephemeral 127.0.0.1 test server, not production hosting",
+  "status": "BLOCKED",
+  "pass": 0,
+  "fail": 0,
+  "blocked_reason": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:39185/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:39185/index.html\", waiting until \"networkidle\"\n",
+  "checks": [],
+  "page_errors": [],
+  "console_errors": []
+}

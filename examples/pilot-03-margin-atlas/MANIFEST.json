@@ -1,0 +1,147 @@
+{
+  "title": "SearchReady-Pilot-03-Margin-Atlas-Content-and-QA",
+  "status": "EXTERNAL INDEPENDENT REVIEW PENDING — source preserved, no production-site claims",
+  "note": "No production SEO, WCAG or live indexing certification",
+  "files": [
+    {
+      "path": "EDITORIAL-REVIEW-AND-FIXES.md",
+      "size": 3687,
+      "sha256": "d5d592e3c618d883d71f6e0909bebb9935d81056ef19105ac4f2f802e0526017"
+    },
+    {
+      "path": "INDEPENDENT-REVIEW-BRIEF.md",
+      "size": 1292,
+      "sha256": "fb8dda7a72ad708c3242aba84b66423873c0cef456096d8afeb261d0d8bdcdea"
+    },
+    {
+      "path": "PILOT-03-QA-STATUS.md",
+      "size": 3592,
+      "sha256": "cb5927d57795e117b25a368fefbc7b728c5acac077edea4a692762d1224b787a"
+    },
+    {
+      "path": "README.md",
+      "size": 2570,
+      "sha256": "a4b087b3d5e4c912ebc0b1b5b172322ebedafc3c989cbc6df3504743302515b8"
+    },
+    {
+      "path": "build.py",
+      "size": 28187,
+      "sha256": "78f9a8885141b894c62dbd9772fa42dd9357caaa0a9fadbdc81eaed7eec0f167"
+    },
+    {
+      "path": "evidence/editorial-delta-results.json",
+      "size": 2306,
+      "sha256": "cd9a73e468525272aabbf7a7385897de34fda4292e272d3e20761f06758d2e29"
+    },
+    {
+      "path": "evidence/editorial-postreview-home-375.png",
+      "size": 159826,
+      "sha256": "b3f5f779827a0c902d8f5cb67c45d5deb2c6652e7405c222045f054d70c29dfd"
+    },
+    {
+      "path": "evidence/live-url-browser-results.author-blocked.json",
+      "size": 461,
+      "sha256": "93921391ca6f684965caec2a07b39078945725e459e8a6b3c3119b2a8c51edff"
+    },
+    {
+      "path": "evidence/margin-atlas-home-1440.png",
+      "size": 242657,
+      "sha256": "1cda8665d56d0dacf1cfdd6aae602a29346aeca5f050ac74d9c3467e632ee9e7"
+    },
+    {
+      "path": "evidence/margin-atlas-home-375.png",
+      "size": 155797,
+      "sha256": "354cafba8edd7a67698d84a2e4610d03235122436d9633fdc7a5baadb73986d5"
+    },
+    {
+      "path": "evidence/margin-atlas-journal-375.png",
+      "size": 96087,
+      "sha256": "ea964d9483a081c6895356acf725427d30e58f939b90dedf1912db6015e91378"
+    },
+    {
+      "path": "evidence/third-pilot-render-results.json",
+      "size": 6685,
+      "sha256": "447b6fea0d9704666217e1ee2e72668bba7eaeb8533776c2fceda49e3592c5e0"
+    },
+    {
+      "path": "evidence/third-pilot-results.json",
+      "size": 5620,
+      "sha256": "061f7459977762f7fa5d012cbcbaf577b49479c4d9ba1c873fa224a7aae03631"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "size": 114,
+      "sha256": "092dd85d034c18906f7a3178ed930269c4fac226c45f40698fb0166ae3676854"
+    },
+    {
+      "path": "site/a-bench-is-a-small-promise.html",
+      "size": 4286,
+      "sha256": "d36b1378c5919adc49629fe3fcec0a58129b043d4496b10a8879a64ee8ee8733"
+    },
+    {
+      "path": "site/about.html",
+      "size": 3260,
+      "sha256": "99f70925f6a054dd3d280e162bb5d6ded91c59cfcfeba54bac7d742b6548e1f5"
+    },
+    {
+      "path": "site/assets/field-map.svg",
+      "size": 1933,
+      "sha256": "b71456f81494e851aa7417902de2aa6cca8bde57f9356eaf3098bfc5369c4b47"
+    },
+    {
+      "path": "site/assets/mark.svg",
+      "size": 188,
+      "sha256": "b6b8057d097aea129f90df7d869548a0004ac5b857182922b233e8f40b2f832c"
+    },
+    {
+      "path": "site/assets/site.css",
+      "size": 11453,
+      "sha256": "fc44cf7a5c96bfbfcf4956c3a8146552cd554fb805d60be8f44a438da7341247"
+    },
+    {
+      "path": "site/assets/site.js",
+      "size": 1619,
+      "sha256": "765303ef10e72626a7f4a0e6243aa342fff415bf53b28024cfa636a737eda58f"
+    },
+    {
+      "path": "site/index.html",
+      "size": 4865,
+      "sha256": "fc1af33190092f35c0aca539506f5a41079f4be2b37c247ab164de4bd5f01e77"
+    },
+    {
+      "path": "site/journal.html",
+      "size": 4138,
+      "sha256": "b201b8a6a2f4aa9900b6a8dff22c46cc856a2d87af7269975ee99fbf46b22602"
+    },
+    {
+      "path": "site/the-art-of-noticing.html",
+      "size": 4449,
+      "sha256": "e7802f0289914c62381365172968e381a9fafd8d22f7044c7ae3c8d2c03f4bbd"
+    },
+    {
+      "path": "tools/site_preflight.py",
+      "size": 8658,
+      "sha256": "fd206393878f017d742e7d4e83ec28a4b51992ef069a8beca3c239c3a41c1760"
+    },
+    {
+      "path": "tools/test_editorial_delta.py",
+      "size": 5955,
+      "sha256": "f13593b79a38eaadff392a8cb12110968d710c423117c16512fe8e486bf1c707"
+    },
+    {
+      "path": "tools/test_editorial_pilot.py",
+      "size": 9020,
+      "sha256": "8db6d8198156a5daf7c21e7881f6772f948f5c9b9499c89e0256b2a1c33ce18a"
+    },
+    {
+      "path": "tools/test_inline_browser.py",
+      "size": 5378,
+      "sha256": "8cd70abf924a498617844db5dfd59c6400c8805c5f6f797857dc328b483d0645"
+    },
+    {
+      "path": "tools/test_live_url_only.py",
+      "size": 5886,
+      "sha256": "0dd019673cd27a6dcb3c1dfb63ecae49bf269bb739820a4c4f41d7ea7eebb3dc"
+    }
+  ]
+}

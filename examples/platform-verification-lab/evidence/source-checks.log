@@ -1,0 +1,14 @@
+test_shopify_assets_and_references (__main__.PlatformSource.test_shopify_assets_and_references) ... ok
+test_shopify_js_syntax (__main__.PlatformSource.test_shopify_js_syntax) ... ok
+test_shopify_json_templates_and_schema (__main__.PlatformSource.test_shopify_json_templates_and_schema) ... ok
+test_shopify_layout_contract (__main__.PlatformSource.test_shopify_layout_contract) ... ok
+test_shopify_native_commerce (__main__.PlatformSource.test_shopify_native_commerce) ... ok
+test_wp_native_hooks (__main__.PlatformSource.test_wp_native_hooks) ... ok
+test_wp_php_syntax (__main__.PlatformSource.test_wp_php_syntax) ... ok
+test_wp_route_templates (__main__.PlatformSource.test_wp_route_templates) ... ok
+test_wp_seo_ownership_and_real_content (__main__.PlatformSource.test_wp_seo_ownership_and_real_content) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.230s
+
+OK

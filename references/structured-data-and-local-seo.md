@@ -1,0 +1,7 @@
+# Entity signals, structured data and local SEO
+
+Implement JSON-LD only for types supported by actual visible content and real owner facts. Choose WebSite, Organization, LocalBusiness, Service, Product, BreadcrumbList, Article and other types **only if appropriate**; validate JSON syntax, URL coherence and applicable Google feature-specific guidelines. Google rich results remain discretionary. Never invent review stars, AggregateRating, addresses, opening hours, pricing, author credentials, awards, FAQ eligibility or contact numbers.
+
+For local-service businesses, require verified business name, real location/service area, valid contact, service taxonomy, accurate hours and owner-approved map links before claiming local SEO readiness. Do not create deceptive multi-city landing pages or auto-claim a Google Business Profile; those are separate authorized operations. Maintain consistent NAP when the site legitimately publishes it. Service-area-only brands must not receive fictional street addresses.
+
+For multilingual sites, use language-specific content and accessible navigation; use hreflang only with valid, reciprocal, canonical alternate URLs. Avoid machine-translated low-quality pages. For ecommerce, product data, availability, pricing and merchant feeds must reflect real source of truth; no fake product ratings. Test structured data via source inspection and official validators when available; record external eligibility as unverified.

@@ -1,0 +1,45 @@
+{
+  "scope": "targeted browser render of remediated states; no URL navigation",
+  "counts": {
+    "PASS": 7,
+    "FAIL": 0,
+    "BLOCKED": 0
+  },
+  "results": [
+    {
+      "check": "D3 error summary gets keyboard focus at 320",
+      "status": "PASS",
+      "detail": "browser focus state"
+    },
+    {
+      "check": "D3 error summary links to invalid field at 320",
+      "status": "PASS",
+      "detail": "summary link"
+    },
+    {
+      "check": "D2 field border styling at 320",
+      "status": "PASS",
+      "detail": "invalid field outline"
+    },
+    {
+      "check": "D3 error summary gets keyboard focus at 375",
+      "status": "PASS",
+      "detail": "browser focus state"
+    },
+    {
+      "check": "D3 error summary links to invalid field at 375",
+      "status": "PASS",
+      "detail": "summary link"
+    },
+    {
+      "check": "D2 field border styling at 375",
+      "status": "PASS",
+      "detail": "invalid field outline"
+    },
+    {
+      "check": "D5 Pilot01 focus ring applied in browser",
+      "status": "PASS",
+      "detail": "rgb(42, 99, 91)"
+    }
+  ]
+}

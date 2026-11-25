@@ -1,0 +1,16 @@
+/*
+Theme Name: Fieldnote Learning
+Description: SearchReady educational editorial theme prototype for staging review.
+Version: 0.1.1
+Text Domain: fieldnote-learning
+License: MIT
+*/
+:root{--ink:#192943;--paper:#f8f6ff;--accent:#4931af;--warm:#ffdd76}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:1.05rem/1.65 system-ui,sans-serif}a{color:#4931af;text-underline-offset:.2em}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #4931af;outline-offset:4px}img{max-width:100%;height:auto}.wrap{max-width:72rem;padding:1.4rem clamp(1rem,4vw,3rem);margin:auto}.site-header{border-bottom:1px solid #bfb3d8;background:#fff}.header-inner{display:flex;gap:1.5rem;justify-content:space-between;align-items:center;flex-wrap:wrap}.brand{font-weight:850;font-size:1.45rem;color:var(--ink)}nav ul{display:flex;flex-wrap:wrap;gap:1.15rem;padding:0;list-style:none;margin:0}.hero{background:var(--warm);border-radius:1rem 4rem 1rem 1rem;padding:clamp(1.5rem,5vw,4rem);margin-block:2rem}.hero h1{font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.05;max-width:15ch;margin:.4em 0}.eyebrow{font-weight:750;text-transform:uppercase;letter-spacing:.08em}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:1.25rem}.card{background:#fff;border:1px solid #c6bdd9;border-radius:1rem;padding:1.25rem}.card h2,.card h3{line-height:1.25}.entry{max-width:70ch;margin:auto}.site-footer{background:#192943;color:white;margin-top:3rem}.site-footer a{color:#ffdd76}.site-footer a:focus-visible{outline-color:#ffdd76}.skip{position:absolute;left:1rem;top:-10rem;background:white;padding:.5rem;z-index:100}.skip:focus{top:1rem}.pagination{margin:1rem 0}input,button{font:inherit;padding:.5em}button{background:#4931af;color:white;border:0;border-radius:.3rem} .screen-reader-text:not(:focus){position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}@media(max-width:500px){.header-inner{align-items:flex-start;flex-direction:column}}@media(forced-colors:active){a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid Highlight}}
+
+/* Comment form reflow and comfortable pagination targets. */
+.comment-form input,.comment-form textarea{max-width:100%;font:inherit;padding:.5em}
+.comment-form textarea{display:block;width:100%;min-width:0;resize:vertical}
+.pagination .nav-links,.comments-pagination .nav-links{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+.pagination .page-numbers,.comments-pagination .page-numbers{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:.25rem .5rem;border-radius:.3rem}
+.pagination a.page-numbers,.comments-pagination a.page-numbers{border:1px solid #bfb3d8}
+.pagination .current,.comments-pagination .current{background:var(--warm);font-weight:750}

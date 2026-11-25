@@ -1,0 +1,2 @@
+# Optional browser testing; offline static/package checks use Python standard library only.
+playwright==1.63.0

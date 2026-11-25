@@ -1,0 +1,8 @@
+test_shopify_locale (__main__.PlatformDelta.test_shopify_locale) ... ok
+test_shopify_metadata (__main__.PlatformDelta.test_shopify_metadata) ... ok
+test_wp_browser_fixture (__main__.PlatformDelta.test_wp_browser_fixture) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.208s
+
+OK

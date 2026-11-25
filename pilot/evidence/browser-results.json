@@ -1,0 +1,27 @@
+{
+  "pilot": "Clearroom fictional service website",
+  "url_tested": "http://127.0.0.1:<ephemeral-port>",
+  "pages": [
+    "index.html",
+    "services.html",
+    "process.html",
+    "contact.html"
+  ],
+  "viewports": [
+    320,
+    375,
+    768,
+    1024,
+    1440
+  ],
+  "checks": 0,
+  "passed": 0,
+  "failed": 1,
+  "errors": [
+    "Test execution error: Error: Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:33831/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:33831/index.html\", waiting until \"networkidle\"\n"
+  ],
+  "uncaught_page_errors": [],
+  "console_errors": [],
+  "scope": [],
+  "production": "BLOCKED: fictional business, no verified domain, no live contact backend, no field CWV"
+}

@@ -1,0 +1,235 @@
+{
+  "pilot": "Margin Atlas content/editorial website",
+  "source": "original, fictional demo",
+  "counts": {
+    "pass": 35,
+    "fail": 0,
+    "blocked": 1
+  },
+  "checks": [
+    {
+      "group": "source",
+      "name": "a-bench-is-a-small-promise.html: unique title and description",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "a-bench-is-a-small-promise.html: one visible H1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "a-bench-is-a-small-promise.html: staging is noindex",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "a-bench-is-a-small-promise.html: no invented canonical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "a-bench-is-a-small-promise.html: internal links and assets resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "group": "source",
+      "name": "about.html: unique title and description",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "about.html: one visible H1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "about.html: staging is noindex",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "about.html: no invented canonical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "about.html: internal links and assets resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "group": "source",
+      "name": "index.html: unique title and description",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "index.html: one visible H1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "index.html: staging is noindex",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "index.html: no invented canonical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "index.html: internal links and assets resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "group": "source",
+      "name": "journal.html: unique title and description",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "journal.html: one visible H1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "journal.html: staging is noindex",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "journal.html: no invented canonical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "journal.html: internal links and assets resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "group": "source",
+      "name": "the-art-of-noticing.html: unique title and description",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "the-art-of-noticing.html: one visible H1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "the-art-of-noticing.html: staging is noindex",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "the-art-of-noticing.html: no invented canonical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "the-art-of-noticing.html: internal links and assets resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "group": "source",
+      "name": "Five routes and article taxonomy exist",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "source",
+      "name": "No external scripts/fonts or marketing pixels",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "a-bench-is-a-small-promise.html: live 200 + staging header",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "about.html: live 200 + staging header",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "index.html: live 200 + staging header",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "journal.html: live 200 + staging header",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "the-art-of-noticing.html: live 200 + staging header",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "assets/site.css HTTP delivery",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "assets/site.js HTTP delivery",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "http",
+      "name": "assets/field-map.svg HTTP delivery",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "browser",
+      "name": "Real Chrome HTTP navigation",
+      "status": "BLOCKED",
+      "detail": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:41181/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:41181/index.html\", waiting until"
+    }
+  ],
+  "browser_mode": "inline HTML with original CSS/JS and SVG (URL navigation BLOCKED)",
+  "page_names": [
+    "a-bench-is-a-small-promise.html",
+    "about.html",
+    "index.html",
+    "journal.html",
+    "the-art-of-noticing.html"
+  ]
+}

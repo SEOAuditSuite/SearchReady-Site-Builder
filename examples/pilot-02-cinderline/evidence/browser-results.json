@@ -1,0 +1,10 @@
+{
+  "status": "BLOCKED",
+  "pass": 0,
+  "fail": 0,
+  "results": [],
+  "errors": [
+    "BROWSER_NAVIGATION_BLOCKED: /index.html 320 Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:33679/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:33679/index.html\", waiting until \"load\"\n"
+  ],
+  "console_errors": []
+}

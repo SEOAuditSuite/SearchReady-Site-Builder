@@ -1,0 +1,59 @@
+{
+  "classification": "render-only visual/browser interaction; not HTTP live-URL certification",
+  "date": "2026-11-23",
+  "browser": "local Chromium via Playwright; page.set_content with unchanged CSS/JS and embedded local original SVG assets",
+  "screenshots": [
+    {
+      "file": "Cinderline-desktop.png",
+      "bytes": 444603,
+      "sha256": "717ea76bd2d45ca143fcc21919ed9bb052e208cd1247e6e8b4d0c30a148eb349"
+    },
+    {
+      "file": "Cinderline-mobile.png",
+      "bytes": 272034,
+      "sha256": "25d876796458dc1fcb826cb1ac9ff20affbb413081f60ef990c5fba3ceb5074f"
+    },
+    {
+      "file": "Clearroom-desktop.png",
+      "bytes": 566393,
+      "sha256": "26616e2b4580fe9d6b064028234d09c511ceb3be2fd8c814e41c71f03504d4fe"
+    },
+    {
+      "file": "Clearroom-mobile.png",
+      "bytes": 342510,
+      "sha256": "83568e67a90bb34be910b76687b4f639f9e95b84dfab3bd2823c87ceea9d1e96"
+    },
+    {
+      "file": "two-redesigns-comparison.png",
+      "bytes": 502604,
+      "sha256": "39d9fabe4d1241985070349f7087c9c405dd3b8319fbd68e3c35154b9884ad06"
+    }
+  ],
+  "observed": {
+    "Clearroom": {
+      "desktop_1440": {
+        "h1": 1,
+        "overflow_px": 0
+      },
+      "mobile_375": {
+        "h1": 1,
+        "overflow_px": 0,
+        "menu_open": true,
+        "escape_close": true
+      }
+    },
+    "Cinderline": {
+      "desktop_1440": {
+        "h1": 1,
+        "overflow_px": 0
+      },
+      "mobile_375": {
+        "h1": 1,
+        "overflow_px": 0,
+        "menu_open": true,
+        "escape_close": true
+      }
+    }
+  },
+  "warning": "Real HTTP browser navigation and user aesthetic approval have not been completed for v0.3"
+}

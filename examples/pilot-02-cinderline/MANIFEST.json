@@ -1,0 +1,192 @@
+{
+  "name": "SearchReady Pilot02 Cinderline reviewed example",
+  "version": "v0.3.0 visual redesign candidate",
+  "status": "HOLD — v0.3 owner design acceptance and independent Windows Chrome validation pending; older evidence is historical",
+  "files": [
+    {
+      "path": "INDEPENDENT-REVIEW-BRIEF.md",
+      "size": 2935,
+      "sha256": "d79c132d379d8e0cf09e88674033f1a408bf13c2bd4815b4aa01107b295497c6"
+    },
+    {
+      "path": "PAGE-SEO-MATRIX.md",
+      "size": 1560,
+      "sha256": "5018eb7f741435971fa53366baed31eb188cf17a008ad370e846391cf26fb37d"
+    },
+    {
+      "path": "PILOT-BRIEF.md",
+      "size": 1580,
+      "sha256": "7caf6b17e54db5ab33a863cf7e6f77361d47f2bbe6a68b273a6f97425b751028"
+    },
+    {
+      "path": "QA-REPORT.md",
+      "size": 4358,
+      "sha256": "d46d559bc7cf85d81230cb6365a89dff68401245af664dd478a27224d2b23391"
+    },
+    {
+      "path": "README.md",
+      "size": 3061,
+      "sha256": "cee5abc59fbfc4eacbd97abb5fad070e3b7ab86c49def305192af62569fefc85"
+    },
+    {
+      "path": "REVIEW-AND-REMEDIATION.md",
+      "size": 5506,
+      "sha256": "ed602a92e72c21152d0bbdb06723ababffe23d972e0dfa771eaa251138c4d3e5"
+    },
+    {
+      "path": "app.py",
+      "size": 24160,
+      "sha256": "c5d50816df0b8447a27bb35413f7c58de6e3c649c5c9dd1c1acc6e4fdb440a9a"
+    },
+    {
+      "path": "evidence/browser-results.json",
+      "size": 337,
+      "sha256": "15bf5e12ec7849a578db212e9b8adcf4592362a7afe50391489988d4fae87d4c"
+    },
+    {
+      "path": "evidence/dark-focus-results.json",
+      "size": 2224,
+      "sha256": "85d9a4840713962dac532db300f9a675621b5c4224434b2c44695db49bb88a2e"
+    },
+    {
+      "path": "evidence/pilot01-cta-focus-375.png",
+      "size": 53093,
+      "sha256": "8c0be8fddf606c31b829565da39dd3c0ff53fbbb7596e11bcf89566c852085c4"
+    },
+    {
+      "path": "evidence/pilot01-footer-focus-375.png",
+      "size": 50731,
+      "sha256": "fc1af3da005789086b9bb4a654506a87c813211c35e2491ff0bb6cc14aee1913"
+    },
+    {
+      "path": "evidence/pilot02-closing-focus-375.png",
+      "size": 34510,
+      "sha256": "c3fd7c9e124d55a77e06db90e3932560b9a8b44b9902764139df999f8e9cc88c"
+    },
+    {
+      "path": "evidence/pilot2-home-desktop-1440.png",
+      "size": 279595,
+      "sha256": "e0211e511e7276418f4e28547c8481b18399b7bb8b5c75668aee55c6b2a55645"
+    },
+    {
+      "path": "evidence/pilot2-home-mobile-375.png",
+      "size": 195657,
+      "sha256": "cc2f1f84854974ad08b9d1a5708f57f0a2272d121e767c54b54c8e00cc828ee8"
+    },
+    {
+      "path": "evidence/pilot2-request-mobile-375.png",
+      "size": 133550,
+      "sha256": "b29f5275e08df85fe72f8d0482f7fe9877269d738f9a298bf762ac6ab01a3a03"
+    },
+    {
+      "path": "evidence/release-fixes-results.json",
+      "size": 1699,
+      "sha256": "f6105be6054e4d6da5a464553864ab45046a965499cd72f0f33e0ee961acd894"
+    },
+    {
+      "path": "evidence/render-results.json",
+      "size": 7167,
+      "sha256": "5fad8bcd41b2f420dca9df6dcac560e3183b9f14d41ff6e5992b12fbd25511a4"
+    },
+    {
+      "path": "evidence/review-focus-results.json",
+      "size": 1088,
+      "sha256": "753843e7a1c00eb923ec243e09876a2412c6ca46d492506e783f47bf4537c70b"
+    },
+    {
+      "path": "evidence/reviewer-targeted-results.json",
+      "size": 1040,
+      "sha256": "8c9a1304a0480fdd620c8ab44ae3e4e2fdc4ff13e1ef62e8b120c77b2e893e7f"
+    },
+    {
+      "path": "evidence/static-preflight.json",
+      "size": 234,
+      "sha256": "51a619dff00b00a86ef708ab956c19c55e32ffa626f4c87ee2891138b0fd1189"
+    },
+    {
+      "path": "site/assets/hero.svg",
+      "size": 2067,
+      "sha256": "d32b2b6b54a6d1127be092b09ffa6cfdcad7582b954e5e5bd60bb8db239f6e29"
+    },
+    {
+      "path": "site/assets/mark.svg",
+      "size": 480,
+      "sha256": "45b4cd67f404a811e9b263eefd163786bbd55c2f1e2f3fe778c5bb550eb3364b"
+    },
+    {
+      "path": "site/assets/site.css",
+      "size": 23910,
+      "sha256": "06952e800d59ed2df7ccd7ffbfb0a8288ff4e82db33958bc437b710c308fb062"
+    },
+    {
+      "path": "site/assets/site.js",
+      "size": 1038,
+      "sha256": "31cf6dbd0ce79e33c96486bda530d1af18a7af67b069e6ce0753a0ecd61e4b6e"
+    },
+    {
+      "path": "site/index.html",
+      "size": 4686,
+      "sha256": "9f37d1bf8802ac3f0666ff90eb35b43198294684cee5d30852b64c001efed272"
+    },
+    {
+      "path": "site/process.html",
+      "size": 3453,
+      "sha256": "cec537e9171f50fd65fd7e60c1a7da55ef1a7565492df4e6432bd31aec683e8e"
+    },
+    {
+      "path": "site/repairs.html",
+      "size": 3537,
+      "sha256": "5ac86b07f67fd9c3d0ca222fcdf854a0dfbf203942b378191d99231eaeb899aa"
+    },
+    {
+      "path": "site/request.html",
+      "size": 4502,
+      "sha256": "0fd9c9379ad6a908d4ceee76452066ec15f3086b7c3ed63b97d0de07b6f1dee3"
+    },
+    {
+      "path": "site/tune-ups.html",
+      "size": 3787,
+      "sha256": "d2b87612abf1d58dda755fcb2e01e456ed37aaaffd01383e599fa7ecbc974c6a"
+    },
+    {
+      "path": "tools/site_preflight.py",
+      "size": 8658,
+      "sha256": "fd206393878f017d742e7d4e83ec28a4b51992ef069a8beca3c239c3a41c1760"
+    },
+    {
+      "path": "tools/test_accessibility_focus.py",
+      "size": 3394,
+      "sha256": "12a70af651877828ba15cf9f2a1883c3fdec3944218d3f3a9c953d178cc4521b"
+    },
+    {
+      "path": "tools/test_browser.py",
+      "size": 4931,
+      "sha256": "2f0e57ec64d4358190a1c9ceaf1f8aea6347867a23ad8e112db111a12545d55f"
+    },
+    {
+      "path": "tools/test_dark_focus_contrast.py",
+      "size": 4835,
+      "sha256": "d42cb0ad0f9ba453b6279bfbcf671a8b783a640a0e0e89ee0f637ee394696ab3"
+    },
+    {
+      "path": "tools/test_independent_fixes.py",
+      "size": 4584,
+      "sha256": "6efac75f8a9cee23dbbd741a9ba8da4c901f4215f4cd2979c84568381895f5ce"
+    },
+    {
+      "path": "tools/test_pilot.py",
+      "size": 7973,
+      "sha256": "5a935f26093d53967f5ae4714dc013dedfb8be32c15467a69b74d8c840b32f22"
+    },
+    {
+      "path": "tools/test_release_fixes.py",
+      "size": 5942,
+      "sha256": "ea2aa161563838d9f80a0f5c140fd282e99f6c30454e054d61076c2483982413"
+    },
+    {
+      "path": "tools/test_render.py",
+      "size": 2942,
+      "sha256": "ca153098cdf6a01314dff31dbc59d8c3931b3b2a741ce0ec6dbc105df6460d86"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "general": {
+    "not_found": {
+      "title": "Page not found",
+      "return_to_shop": "Return to the shop"
+    }
+  }
+}

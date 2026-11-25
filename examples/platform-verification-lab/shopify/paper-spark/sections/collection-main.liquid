@@ -1,0 +1,7 @@
+<section><h1>{{ collection.title | escape }}</h1>{{ collection.description }}{% paginate collection.products by 24 %}<div class="grid">{% for item in collection.products %}{% render 'product-card', item: item, heading_level: 2 %}{% else %}<p>No products in this collection.</p>{% endfor %}</div>{{ paginate | default_pagination }}{% endpaginate %}</section>
+{% schema %}
+{
+  "name": "Collection Main",
+  "settings": []
+}
+{% endschema %}

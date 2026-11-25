@@ -1,0 +1,7 @@
+<h1>Your bag</h1>{% if cart.item_count > 0 %}<form action="{{ routes.cart_url }}" method="post">{% for item in cart.items %}<div class="card"><h2><a href="{{ item.url }}">{{ item.product.title | escape }}</a></h2><p>{{ item.final_line_price | money }}</p><label for="Qty-{{ forloop.index }}">Quantity</label><input id="Qty-{{ forloop.index }}" type="number" min="0" name="updates[]" value="{{ item.quantity }}"></div>{% endfor %}<p>Total: {{ cart.total_price | money }}</p><button type="submit" name="update">Update bag</button> <button type="submit" name="checkout">Checkout</button></form>{% else %}<p>Your bag is empty.</p><a href="{{ routes.all_products_collection_url }}">Browse products</a>{% endif %}
+{% schema %}
+{
+  "name": "Cart Main",
+  "settings": []
+}
+{% endschema %}

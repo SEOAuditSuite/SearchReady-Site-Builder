@@ -1,0 +1,356 @@
+{
+  "layer": "render-only (page.set_content + unchanged CSS/JS; not live HTTP browser)",
+  "pass": 87,
+  "fail": 0,
+  "errors": [],
+  "results": [
+    {
+      "test": "/index.html H1 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html visible body 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html no overflow 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html H1 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html visible body 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html no overflow 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html H1 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html visible body 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html no overflow 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html H1 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html visible body 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html no overflow 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html H1 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html visible body 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html no overflow 320",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html H1 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html visible body 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html no overflow 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html menu expanded",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html Escape closes",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html H1 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html visible body 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html no overflow 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html menu expanded",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html Escape closes",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html H1 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html visible body 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html no overflow 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html menu expanded",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html Escape closes",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html H1 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html visible body 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html no overflow 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html menu expanded",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html Escape closes",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html H1 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html visible body 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html no overflow 375",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html menu expanded",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html Escape closes",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html H1 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html visible body 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html no overflow 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html H1 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html visible body 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html no overflow 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html H1 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html visible body 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html no overflow 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html H1 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html visible body 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html no overflow 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html H1 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html visible body 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html no overflow 768",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html H1 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html visible body 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html no overflow 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html H1 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html visible body 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html no overflow 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html H1 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html visible body 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html no overflow 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html H1 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html visible body 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html no overflow 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html H1 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html visible body 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html no overflow 1024",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html H1 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html visible body 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/index.html no overflow 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html H1 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html visible body 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/tune-ups.html no overflow 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html H1 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html visible body 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/repairs.html no overflow 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html H1 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html visible body 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/process.html no overflow 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html H1 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html visible body 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "/request.html no overflow 1440",
+      "status": "PASS"
+    },
+    {
+      "test": "Unfilled form triggers required validation",
+      "status": "PASS"
+    },
+    {
+      "test": "No page exceptions",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<section class="hero"><span class="badge">{{ section.settings.kicker | escape }}</span><h1>{{ section.settings.heading | escape }}</h1><p>{{ section.settings.intro | escape }}</p><a class="btn" href="{{ routes.all_products_collection_url }}">Browse the shop</a></section><section><h2>Explore the collection</h2>{% assign featured = section.settings.collection %}{% if featured != blank %}<div class="grid">{% for item in featured.products limit: 4 %}{% render 'product-card', item: item %}{% endfor %}</div>{% else %}<p>Choose a featured collection in the theme editor.</p>{% endif %}</section>
+{% schema %}
+{
+  "name": "Home Main",
+  "settings": [
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Eyebrow",
+      "default": "Little ideas, big colour"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Make everyday a little brighter."
+    },
+    {
+      "type": "text",
+      "id": "intro",
+      "label": "Introduction",
+      "default": "Explore paper goods and creative supplies."
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Featured collection"
+    }
+  ]
+}
+{% endschema %}

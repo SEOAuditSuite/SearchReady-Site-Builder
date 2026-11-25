@@ -1,0 +1,20 @@
+name: SearchReady Candidate Validation
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate package and focused references (stdlib only)
+        run: |
+          python tools/validate_package.py
+          python tools/test_editorial_contract.py
+          python tools/test_release_delta.py
+          python tools/test_integration_contract.py
+          python tools/test_visual_v03.py VisualV03Tests.test_focus_rules_follow_current_surfaces VisualV03Tests.test_contrast_in_new_visual_systems
+          python tools/check_manifest.py

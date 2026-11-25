@@ -1,0 +1,10 @@
+{
+  "mode": "staging",
+  "root": "/mnt/data/searchready/second_pilot/site",
+  "pages": 5,
+  "errors": [],
+  "warnings": [
+    "Staging source preflight: HTTP/browser and production-domain checks are separate"
+  ],
+  "status": "PASS"
+}

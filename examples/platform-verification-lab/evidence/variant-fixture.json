@@ -1,0 +1,27 @@
+{
+  "scope": "synthetic DOM, actual JS; not Shopify runtime",
+  "checks": [
+    {
+      "name": "initial price and enabled button",
+      "status": "PASS"
+    },
+    {
+      "name": "available variant price",
+      "status": "PASS"
+    },
+    {
+      "name": "unavailable variant disables submit",
+      "status": "PASS"
+    },
+    {
+      "name": "return to available variant",
+      "status": "PASS"
+    },
+    {
+      "name": "no page errors",
+      "status": "PASS"
+    }
+  ],
+  "pass": 5,
+  "fail": 0
+}

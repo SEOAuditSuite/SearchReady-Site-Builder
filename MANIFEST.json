@@ -1,0 +1,977 @@
+{
+  "name": "SearchReady Site Builder",
+  "version": "v0.3.1",
+  "status": "RELEASE-ready for instruction Skill distribution; owner approval and GitHub publication pending",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 705,
+      "sha256": "55c9720287aedb44e0e774225b485f0a04d57a1778a56bd41b9e787cad95dc9d"
+    },
+    {
+      "path": ".gitignore",
+      "size": 125,
+      "sha256": "46dd36370d4e2f57dc910c04acd956d841a92746fa1b908e5a3e61a28496a3db"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 6166,
+      "sha256": "b619453fa1a98b03c2667967896875b958bf073d0aa336d121a14ab3be06340f"
+    },
+    {
+      "path": "CONSOLIDATED-ACCEPTANCE-STATUS.md",
+      "size": 4964,
+      "sha256": "8522418b04dab07ef1aeab83a7fa82a004f59fc8bf87ace5e50a46b626d19d8a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 482,
+      "sha256": "394b0171cc3f63dee4daf55390801815826549da94d5b0dbd54ccb5205122e75"
+    },
+    {
+      "path": "CURRENT-ACCEPTANCE.md",
+      "size": 6705,
+      "sha256": "7f2301af5f7ec6cc3d7b74b0355c588918bc61cf65c8bc8f9b441dc06771d66b"
+    },
+    {
+      "path": "CURRENT-FINAL-ACCEPTANCE-BRIEF.md",
+      "size": 5230,
+      "sha256": "e2342154efebef85000c81657fec0cb538d3bbb1d20d90e5da1addf4b62c7690"
+    },
+    {
+      "path": "DARK-FOCUS-FIX-RESULTS.md",
+      "size": 3629,
+      "sha256": "b758e504292be49923cb4d7787aeedb3fc94a2e31aa5593b32bdc8bbf5c8eff0"
+    },
+    {
+      "path": "FINAL-ACCEPTANCE-BRIEF.md",
+      "size": 5299,
+      "sha256": "8e725ef999ec7f5273cecebe136b7278c035b5c5a2d1972b41845caaa65e6c27"
+    },
+    {
+      "path": "INDEPENDENT-REVIEW-DELTA.md",
+      "size": 2262,
+      "sha256": "eac7e76d2de90cbb573c9ebbb51ed4cfcd00bf74435d50a675aec77401cd7bfd"
+    },
+    {
+      "path": "INSTALL-AND-USE-INSTRUCTIONS.md",
+      "size": 4605,
+      "sha256": "3c1013aeb8dd59c737e0610638cdba49704b30554e4639c110677900be0ee9b2"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1094,
+      "sha256": "0d83a66aa02487f2785450ac0e0ce54397030fe413e448efec076a630550e6c4"
+    },
+    {
+      "path": "PROJECT-INSTRUCTIONS.txt",
+      "size": 2195,
+      "sha256": "aef8365199da4a461f7ff30b28d61a95b2c19d1aad7f36cd83a7ef3a2e076467"
+    },
+    {
+      "path": "QA-AND-NEXT-GATES.md",
+      "size": 4730,
+      "sha256": "3a906e99e0aac010aaae9fa4fc6520374165d9c1662f7e993e2841c1f70521cc"
+    },
+    {
+      "path": "README.md",
+      "size": 9622,
+      "sha256": "d6a68700b7d5e83ce2d89011dcb07829a179c90b31e316e6ab0434d725d00c54"
+    },
+    {
+      "path": "RELEASE-ACCEPTANCE.md",
+      "size": 3314,
+      "sha256": "f8a4bebe119b51b322782cbe669531d9b658d788e30b4d8584b6e1b5fa402541"
+    },
+    {
+      "path": "RELEASE-CHECKLIST.md",
+      "size": 4153,
+      "sha256": "455b0024af190bafb9c6cee7215fa6ad46b9090e418af504c90ce0ad922271c7"
+    },
+    {
+      "path": "REMEDIATION-AND-REVIEW-STATUS.md",
+      "size": 6671,
+      "sha256": "32cdbd0a8178d622ebfa8ac3d70263fa6df480b3d035c36fa295fa548520124b"
+    },
+    {
+      "path": "SEARCHREADY-REFERENCE-GUIDE.md",
+      "size": 36913,
+      "sha256": "10f5bc1e8b61094a03be466e6aed0db85d8191132ed252e8ccec24b0b4063d6e"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 696,
+      "sha256": "bf833e7bdc84135fe9d3f0fdb7c348f88c5c3f7c2572cb23602a9c35d59d0b05"
+    },
+    {
+      "path": "SEO-AUDIT-WORKFLOW-AUTHOR.md",
+      "size": 2682,
+      "sha256": "a4183d946c4c775d25453ff756e01930c4e06ea29f38dba721aac4355ba72bba"
+    },
+    {
+      "path": "SEO-INTEGRATION-REVIEW.md",
+      "size": 3479,
+      "sha256": "d8671624bc44aef0115918a6f71c9fe485c462b4a2c456ad71c1a8ebc2bf9296"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 13549,
+      "sha256": "8207352ab4df9da8c66451b0da328abd15c2320ef119e42f6ab462975ae96783"
+    },
+    {
+      "path": "SOURCE-AND-EVIDENCE.md",
+      "size": 2667,
+      "sha256": "073a264c2b78f85b3cb3e9ca76adad2b9403fa1df82fc9268831defd804414a3"
+    },
+    {
+      "path": "V03-FOCUS-REMEDIATION.md",
+      "size": 3564,
+      "sha256": "b46f49b815f44a94b69481ac446b789551a4fa8e0c1e5eb932d8c4fd6b5a55e1"
+    },
+    {
+      "path": "VISUAL-REDESIGN-V03.md",
+      "size": 2794,
+      "sha256": "30f25ef4d40b9979cab43c0eb3ae6496800e4437b3d9a78e64d20eec98a5c03e"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/INDEPENDENT-REVIEW-BRIEF.md",
+      "size": 2935,
+      "sha256": "d79c132d379d8e0cf09e88674033f1a408bf13c2bd4815b4aa01107b295497c6"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/MANIFEST.json",
+      "size": 6156,
+      "sha256": "b948429409a2da0802ac2a5924a802b532b06eb4b89ac6094889f9f888b2e991"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/PAGE-SEO-MATRIX.md",
+      "size": 1560,
+      "sha256": "5018eb7f741435971fa53366baed31eb188cf17a008ad370e846391cf26fb37d"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/PILOT-BRIEF.md",
+      "size": 1580,
+      "sha256": "7caf6b17e54db5ab33a863cf7e6f77361d47f2bbe6a68b273a6f97425b751028"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/QA-REPORT.md",
+      "size": 4358,
+      "sha256": "d46d559bc7cf85d81230cb6365a89dff68401245af664dd478a27224d2b23391"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/README.md",
+      "size": 3061,
+      "sha256": "cee5abc59fbfc4eacbd97abb5fad070e3b7ab86c49def305192af62569fefc85"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/REVIEW-AND-REMEDIATION.md",
+      "size": 5506,
+      "sha256": "ed602a92e72c21152d0bbdb06723ababffe23d972e0dfa771eaa251138c4d3e5"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/app.py",
+      "size": 24160,
+      "sha256": "c5d50816df0b8447a27bb35413f7c58de6e3c649c5c9dd1c1acc6e4fdb440a9a"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/browser-results.json",
+      "size": 337,
+      "sha256": "15bf5e12ec7849a578db212e9b8adcf4592362a7afe50391489988d4fae87d4c"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/dark-focus-results.json",
+      "size": 2224,
+      "sha256": "85d9a4840713962dac532db300f9a675621b5c4224434b2c44695db49bb88a2e"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/pilot01-cta-focus-375.png",
+      "size": 53093,
+      "sha256": "8c0be8fddf606c31b829565da39dd3c0ff53fbbb7596e11bcf89566c852085c4"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/pilot01-footer-focus-375.png",
+      "size": 50731,
+      "sha256": "fc1af3da005789086b9bb4a654506a87c813211c35e2491ff0bb6cc14aee1913"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/pilot02-closing-focus-375.png",
+      "size": 34510,
+      "sha256": "c3fd7c9e124d55a77e06db90e3932560b9a8b44b9902764139df999f8e9cc88c"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/pilot2-home-desktop-1440.png",
+      "size": 279595,
+      "sha256": "e0211e511e7276418f4e28547c8481b18399b7bb8b5c75668aee55c6b2a55645"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/pilot2-home-mobile-375.png",
+      "size": 195657,
+      "sha256": "cc2f1f84854974ad08b9d1a5708f57f0a2272d121e767c54b54c8e00cc828ee8"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/pilot2-request-mobile-375.png",
+      "size": 133550,
+      "sha256": "b29f5275e08df85fe72f8d0482f7fe9877269d738f9a298bf762ac6ab01a3a03"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/release-fixes-results.json",
+      "size": 1699,
+      "sha256": "f6105be6054e4d6da5a464553864ab45046a965499cd72f0f33e0ee961acd894"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/render-results.json",
+      "size": 7167,
+      "sha256": "5fad8bcd41b2f420dca9df6dcac560e3183b9f14d41ff6e5992b12fbd25511a4"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/review-focus-results.json",
+      "size": 1088,
+      "sha256": "753843e7a1c00eb923ec243e09876a2412c6ca46d492506e783f47bf4537c70b"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/reviewer-targeted-results.json",
+      "size": 1040,
+      "sha256": "8c9a1304a0480fdd620c8ab44ae3e4e2fdc4ff13e1ef62e8b120c77b2e893e7f"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/evidence/static-preflight.json",
+      "size": 234,
+      "sha256": "51a619dff00b00a86ef708ab956c19c55e32ffa626f4c87ee2891138b0fd1189"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/assets/hero.svg",
+      "size": 2067,
+      "sha256": "d32b2b6b54a6d1127be092b09ffa6cfdcad7582b954e5e5bd60bb8db239f6e29"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/assets/mark.svg",
+      "size": 480,
+      "sha256": "45b4cd67f404a811e9b263eefd163786bbd55c2f1e2f3fe778c5bb550eb3364b"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/assets/site.css",
+      "size": 24479,
+      "sha256": "49bf56cb75e84f2583c0db29ae8814716c3b5d93d5eed8aec3442026ec21b2c6"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/assets/site.js",
+      "size": 1038,
+      "sha256": "31cf6dbd0ce79e33c96486bda530d1af18a7af67b069e6ce0753a0ecd61e4b6e"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/index.html",
+      "size": 4686,
+      "sha256": "9f37d1bf8802ac3f0666ff90eb35b43198294684cee5d30852b64c001efed272"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/process.html",
+      "size": 3453,
+      "sha256": "cec537e9171f50fd65fd7e60c1a7da55ef1a7565492df4e6432bd31aec683e8e"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/repairs.html",
+      "size": 3537,
+      "sha256": "5ac86b07f67fd9c3d0ca222fcdf854a0dfbf203942b378191d99231eaeb899aa"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/request.html",
+      "size": 4502,
+      "sha256": "0fd9c9379ad6a908d4ceee76452066ec15f3086b7c3ed63b97d0de07b6f1dee3"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/site/tune-ups.html",
+      "size": 3787,
+      "sha256": "d2b87612abf1d58dda755fcb2e01e456ed37aaaffd01383e599fa7ecbc974c6a"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/site_preflight.py",
+      "size": 8658,
+      "sha256": "fd206393878f017d742e7d4e83ec28a4b51992ef069a8beca3c239c3a41c1760"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/test_accessibility_focus.py",
+      "size": 3394,
+      "sha256": "12a70af651877828ba15cf9f2a1883c3fdec3944218d3f3a9c953d178cc4521b"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/test_browser.py",
+      "size": 4931,
+      "sha256": "2f0e57ec64d4358190a1c9ceaf1f8aea6347867a23ad8e112db111a12545d55f"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/test_dark_focus_contrast.py",
+      "size": 4835,
+      "sha256": "d42cb0ad0f9ba453b6279bfbcf671a8b783a640a0e0e89ee0f637ee394696ab3"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/test_independent_fixes.py",
+      "size": 4584,
+      "sha256": "6efac75f8a9cee23dbbd741a9ba8da4c901f4215f4cd2979c84568381895f5ce"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/test_pilot.py",
+      "size": 7973,
+      "sha256": "5a935f26093d53967f5ae4714dc013dedfb8be32c15467a69b74d8c840b32f22"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/test_release_fixes.py",
+      "size": 5942,
+      "sha256": "ea2aa161563838d9f80a0f5c140fd282e99f6c30454e054d61076c2483982413"
+    },
+    {
+      "path": "examples/pilot-02-cinderline/tools/test_render.py",
+      "size": 2942,
+      "sha256": "ca153098cdf6a01314dff31dbc59d8c3931b3b2a741ce0ec6dbc105df6460d86"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/EDITORIAL-REVIEW-AND-FIXES.md",
+      "size": 3687,
+      "sha256": "d5d592e3c618d883d71f6e0909bebb9935d81056ef19105ac4f2f802e0526017"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/INDEPENDENT-REVIEW-BRIEF.md",
+      "size": 1292,
+      "sha256": "fb8dda7a72ad708c3242aba84b66423873c0cef456096d8afeb261d0d8bdcdea"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/MANIFEST.json",
+      "size": 4765,
+      "sha256": "d0990247992ead6590b5f19db3844ae77873f4ea1dee8c7f88dd1069f07ba724"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/PILOT-03-QA-STATUS.md",
+      "size": 3592,
+      "sha256": "cb5927d57795e117b25a368fefbc7b728c5acac077edea4a692762d1224b787a"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/README.md",
+      "size": 2570,
+      "sha256": "a4b087b3d5e4c912ebc0b1b5b172322ebedafc3c989cbc6df3504743302515b8"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/build.py",
+      "size": 28187,
+      "sha256": "78f9a8885141b894c62dbd9772fa42dd9357caaa0a9fadbdc81eaed7eec0f167"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/editorial-delta-results.json",
+      "size": 2306,
+      "sha256": "cd9a73e468525272aabbf7a7385897de34fda4292e272d3e20761f06758d2e29"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/editorial-postreview-home-375.png",
+      "size": 159826,
+      "sha256": "b3f5f779827a0c902d8f5cb67c45d5deb2c6652e7405c222045f054d70c29dfd"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/live-url-browser-results.author-blocked.json",
+      "size": 461,
+      "sha256": "93921391ca6f684965caec2a07b39078945725e459e8a6b3c3119b2a8c51edff"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/margin-atlas-home-1440.png",
+      "size": 242657,
+      "sha256": "1cda8665d56d0dacf1cfdd6aae602a29346aeca5f050ac74d9c3467e632ee9e7"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/margin-atlas-home-375.png",
+      "size": 155797,
+      "sha256": "354cafba8edd7a67698d84a2e4610d03235122436d9633fdc7a5baadb73986d5"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/margin-atlas-journal-375.png",
+      "size": 96087,
+      "sha256": "ea964d9483a081c6895356acf725427d30e58f939b90dedf1912db6015e91378"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/third-pilot-render-results.json",
+      "size": 6685,
+      "sha256": "447b6fea0d9704666217e1ee2e72668bba7eaeb8533776c2fceda49e3592c5e0"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/evidence/third-pilot-results.json",
+      "size": 5620,
+      "sha256": "061f7459977762f7fa5d012cbcbaf577b49479c4d9ba1c873fa224a7aae03631"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/requirements-dev.txt",
+      "size": 114,
+      "sha256": "092dd85d034c18906f7a3178ed930269c4fac226c45f40698fb0166ae3676854"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/a-bench-is-a-small-promise.html",
+      "size": 4286,
+      "sha256": "d36b1378c5919adc49629fe3fcec0a58129b043d4496b10a8879a64ee8ee8733"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/about.html",
+      "size": 3260,
+      "sha256": "99f70925f6a054dd3d280e162bb5d6ded91c59cfcfeba54bac7d742b6548e1f5"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/assets/field-map.svg",
+      "size": 1933,
+      "sha256": "b71456f81494e851aa7417902de2aa6cca8bde57f9356eaf3098bfc5369c4b47"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/assets/mark.svg",
+      "size": 188,
+      "sha256": "b6b8057d097aea129f90df7d869548a0004ac5b857182922b233e8f40b2f832c"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/assets/site.css",
+      "size": 11453,
+      "sha256": "fc44cf7a5c96bfbfcf4956c3a8146552cd554fb805d60be8f44a438da7341247"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/assets/site.js",
+      "size": 1619,
+      "sha256": "765303ef10e72626a7f4a0e6243aa342fff415bf53b28024cfa636a737eda58f"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/index.html",
+      "size": 4865,
+      "sha256": "fc1af33190092f35c0aca539506f5a41079f4be2b37c247ab164de4bd5f01e77"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/journal.html",
+      "size": 4138,
+      "sha256": "b201b8a6a2f4aa9900b6a8dff22c46cc856a2d87af7269975ee99fbf46b22602"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/site/the-art-of-noticing.html",
+      "size": 4449,
+      "sha256": "e7802f0289914c62381365172968e381a9fafd8d22f7044c7ae3c8d2c03f4bbd"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/tools/site_preflight.py",
+      "size": 8658,
+      "sha256": "fd206393878f017d742e7d4e83ec28a4b51992ef069a8beca3c239c3a41c1760"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/tools/test_editorial_delta.py",
+      "size": 5955,
+      "sha256": "f13593b79a38eaadff392a8cb12110968d710c423117c16512fe8e486bf1c707"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/tools/test_editorial_pilot.py",
+      "size": 9020,
+      "sha256": "8db6d8198156a5daf7c21e7881f6772f948f5c9b9499c89e0256b2a1c33ce18a"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/tools/test_inline_browser.py",
+      "size": 5378,
+      "sha256": "8cd70abf924a498617844db5dfd59c6400c8805c5f6f797857dc328b483d0645"
+    },
+    {
+      "path": "examples/pilot-03-margin-atlas/tools/test_live_url_only.py",
+      "size": 5886,
+      "sha256": "0dd019673cd27a6dcb3c1dfb63ecae49bf269bb739820a4c4f41d7ea7eebb3dc"
+    },
+    {
+      "path": "examples/platform-verification-lab/MANIFEST.json",
+      "size": 6604,
+      "sha256": "a61d0b642ffd886fc5a74551fbcba98f12aaba3dfe87a1ec253788e3c29ed270"
+    },
+    {
+      "path": "examples/platform-verification-lab/NATIVE-ACCEPTANCE-DELTA.md",
+      "size": 4194,
+      "sha256": "afd3d5eec47ead780a7f5f2bf4d5811ecff15bf5fd6b14ddc99741e68699bf7e"
+    },
+    {
+      "path": "examples/platform-verification-lab/PLATFORM-VERIFICATION.md",
+      "size": 2896,
+      "sha256": "1479d99e20720d7949cee795bc6a97eecbda14f723a79ab1eb67699b9e22ce40"
+    },
+    {
+      "path": "examples/platform-verification-lab/README.md",
+      "size": 4540,
+      "sha256": "29d5a72ca1a94fe23f0211363dba9a8b14929a87cd24e1ee676411e8d7862819"
+    },
+    {
+      "path": "examples/platform-verification-lab/evidence/platform-delta-author.log",
+      "size": 326,
+      "sha256": "58e6a08db0776cbf6395747561d897f3882d30b7fcd030b5b2db0e7e8fa384c0"
+    },
+    {
+      "path": "examples/platform-verification-lab/evidence/source-checks.log",
+      "size": 911,
+      "sha256": "b07cb0a1196d6272cdea16a5a7014ae9a50aa58ff2451fc8e8525fedde519a99"
+    },
+    {
+      "path": "examples/platform-verification-lab/evidence/variant-fixture.json",
+      "size": 508,
+      "sha256": "6ceec783980052d718f4085934c42ef67b0221f3b918566c29477421ac23a889"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/assets/theme.css",
+      "size": 2025,
+      "sha256": "6973bf152bf2e70b6eb5e7284f1c71de54bbf9ef6557e54fba93691bfde7ad76"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/assets/variants.js",
+      "size": 590,
+      "sha256": "26222b75b054438dd78429ae07667b4672e37808eb9bf716e84ec84b5147dc6b"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/config/settings_data.json",
+      "size": 37,
+      "sha256": "e30f303815d5b268d16171480e019bd6ff79900cead86b5ed27685d4646fd605"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/config/settings_schema.json",
+      "size": 288,
+      "sha256": "9fb9401edbcc2281474b5b6766654874d2c5c28c3c48cb1886132c4c147c142a"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/layout/theme.liquid",
+      "size": 1204,
+      "sha256": "f93640a13aba58749e42fafee80490e75ce2d00e88b81a0feb0a61820a68aa5c"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/locales/en.default.json",
+      "size": 126,
+      "sha256": "ef9809e79c2b60df66fcd32164a5568c3495ffb228e3817f40d8191d2124b107"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/sections/cart-main.liquid",
+      "size": 781,
+      "sha256": "cc3f655f59ceca42c123105eec36b69f8f72e1d6db9d38afa805102c3aa56b47"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/sections/collection-main.liquid",
+      "size": 437,
+      "sha256": "6def58b496aa8376edd23efa9a47b59c8703875c64c66c4778d1998eff65b764"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/sections/home-main.liquid",
+      "size": 1186,
+      "sha256": "abb426744fc8a73212ab3db5bc346bd0236114e2f50580c6c0c7b97199cbde9f"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/sections/not-found.liquid",
+      "size": 223,
+      "sha256": "74ed51bf237937489a9110b28c080e5e51e5037420c403e7777b87c21cf079ac"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/sections/page-main.liquid",
+      "size": 145,
+      "sha256": "b6c80c44e638354e891a996387ce3e4c9078d3b1756b08157248a1d117131732"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/sections/product-main.liquid",
+      "size": 1282,
+      "sha256": "651a1dc440f458acaf56514ce36cff356619927ab5747612fcb4b16d6be4947c"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/snippets/product-card.liquid",
+      "size": 406,
+      "sha256": "747e2f1166351e55aafe909a78fc51a64108f583b68681c78c4c9697f1a628aa"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/templates/404.json",
+      "size": 121,
+      "sha256": "31dab5fdac26c9d5b54d50c4139b44b7626e8ca1ae29bd33b51a4f7785aee070"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/templates/cart.json",
+      "size": 121,
+      "sha256": "42d599e7c0c29532960786a8120cdf8f459a0dcb64f308691833e93e4d04ae66"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/templates/collection.json",
+      "size": 127,
+      "sha256": "6a6880383651e90e6946177623cf7899423c15caac9d6d70ab4de3771b9fb0e2"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/templates/index.json",
+      "size": 121,
+      "sha256": "15e6aa439ac24ee422200128e203764e5d1d7145fa3a4b77370d5e7167697d10"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/templates/page.json",
+      "size": 121,
+      "sha256": "49e9ee5a4c4292cc64ada0331fde47d6f6949032c9de185148c7f285a65127be"
+    },
+    {
+      "path": "examples/platform-verification-lab/shopify/paper-spark/templates/product.json",
+      "size": 124,
+      "sha256": "52b7f6e79dfa5c2bd3266e6fcae43b4d0e270c8821727958a669b49e4bdfa438"
+    },
+    {
+      "path": "examples/platform-verification-lab/tools/test_platform_delta.py",
+      "size": 3024,
+      "sha256": "259a063e411749a6678196e50e021a8ca64e6e1a2d2b479671467f01e012a95c"
+    },
+    {
+      "path": "examples/platform-verification-lab/tools/test_platform_source.py",
+      "size": 3854,
+      "sha256": "b49bec67cdadd5a79ec32e1b692565ffcea8594e36cac758ee550e62a48ca639"
+    },
+    {
+      "path": "examples/platform-verification-lab/tools/test_variant_fixture.py",
+      "size": 2531,
+      "sha256": "28b46ce8c1de32f6c3b7f326693db8e92e0ee1e6af12e07f8ae3d5c4eff73a12"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/404.php",
+      "size": 401,
+      "sha256": "c14ef5d2e094fc06a3decf1764203f9994f6d098c298b1003653100daafdf0c3"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/comments.php",
+      "size": 325,
+      "sha256": "732342715b887d439aa781490d32201a71829877a63c25d3b84aa219a3496edf"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/footer.php",
+      "size": 251,
+      "sha256": "80d219949d971899764fb2d2d067f658894f6a4ccd72ca44a4cfbd7818f4aa5b"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/functions.php",
+      "size": 756,
+      "sha256": "5628e1635a70e7ea2a53e05759707a18f3c59571365ff5f345994053e4ca495d"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/header.php",
+      "size": 732,
+      "sha256": "f36d738a119173c72966ba83c8be72969f21c475a607e0662da0b519c9abca35"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/index.php",
+      "size": 963,
+      "sha256": "22baf358f5d11bfc498111641e732e9422d179eeef7450d0207be05433caedff"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/page.php",
+      "size": 410,
+      "sha256": "d34a34789fa0d0bbbb882086966ab9f4e6e8c973385f24c231d29b9934f4f100"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/search.php",
+      "size": 597,
+      "sha256": "49ceb1e565ae46534e7a87b1799fc61fd99b3a5d3f15c164df180fcd87d7ed39"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/single.php",
+      "size": 410,
+      "sha256": "d34a34789fa0d0bbbb882086966ab9f4e6e8c973385f24c231d29b9934f4f100"
+    },
+    {
+      "path": "examples/platform-verification-lab/wordpress/fieldnote-learning/style.css",
+      "size": 2906,
+      "sha256": "4eb673320025396236d3bc23a7927e38eb26d2cf7f2d354731c377e79335d7a0"
+    },
+    {
+      "path": "pilot/README.md",
+      "size": 1065,
+      "sha256": "d95107d4d2044da0b4b4711da4fc5d7146980a9d3a3aaecd56070c3d30870270"
+    },
+    {
+      "path": "pilot/evidence/browser-results.json",
+      "size": 726,
+      "sha256": "ff0345d97e71127b85458a4b5c7e29f081487b3281f009aa89158f9b38dc607e"
+    },
+    {
+      "path": "pilot/evidence/contact-mobile-375.png",
+      "size": 134275,
+      "sha256": "95f580411653feea6d6b37a7dbfaf019404b6ff6cd8263e39b845e7e5794398e"
+    },
+    {
+      "path": "pilot/evidence/home-desktop-1440.png",
+      "size": 292892,
+      "sha256": "08fe8e3d2519c21b3b4eabd01d7017bfe9499541a5269e4623c7cae2c1abcdba"
+    },
+    {
+      "path": "pilot/evidence/home-mobile-375.png",
+      "size": 218320,
+      "sha256": "fd6288447b074ccb3b33c45c2169de3ccef39b15ce3865628517ca3956efa568"
+    },
+    {
+      "path": "pilot/evidence/http-results.json",
+      "size": 1084,
+      "sha256": "5e60ac722c06b5bddd02781e8e5413e4d966788d153c03b576d0a59663046c38"
+    },
+    {
+      "path": "pilot/evidence/render-results.json",
+      "size": 462,
+      "sha256": "e5c7f3bb9b35baaed5642617998037002a442c4069b4240dd9e17ce663abd917"
+    },
+    {
+      "path": "pilot/evidence/static_preflight.json",
+      "size": 231,
+      "sha256": "d1e56f5685e0ab6b3324bed91351ac25533124f3f8ad5b894ea657d0ff580bf0"
+    },
+    {
+      "path": "pilot/site/assets/hero-art.svg",
+      "size": 2984,
+      "sha256": "c82ab1988b493a10204986ca727591fdb286b4b689c7fe68d30982265ec61fe6"
+    },
+    {
+      "path": "pilot/site/assets/mark.svg",
+      "size": 446,
+      "sha256": "b0ce6eeb26f656399a02724805b5f40e5a1d1297491a62bb3b4d83a0658d1473"
+    },
+    {
+      "path": "pilot/site/assets/site.css",
+      "size": 17630,
+      "sha256": "3f34180b4d5aaf9c67bd740282c426a3813b7af4240fdabc55a30cacf5225a29"
+    },
+    {
+      "path": "pilot/site/assets/site.js",
+      "size": 1781,
+      "sha256": "0e9ffb5f65332196fad7b24e44575552e91a6326258799865cad3b99d4e3d6fd"
+    },
+    {
+      "path": "pilot/site/contact.html",
+      "size": 3863,
+      "sha256": "d9a42f3f95a893baf5168a171c0d0cd6fbae9f8a2896278238f7bf85c33fb124"
+    },
+    {
+      "path": "pilot/site/index.html",
+      "size": 5192,
+      "sha256": "8eabe40d2f595d6a3f18f77582afdfa4760e8d8b8150367ee3d7ba3550cff15b"
+    },
+    {
+      "path": "pilot/site/process.html",
+      "size": 3756,
+      "sha256": "840243f97027a11451f0bbb9db5c7060196dfdc768afcd3b1b520db136981712"
+    },
+    {
+      "path": "pilot/site/services.html",
+      "size": 4214,
+      "sha256": "366ddc3fbd289d34fce5a90144f6013a2fe147055f01763aec4fb63f527d5678"
+    },
+    {
+      "path": "references/brand-and-visual-design.md",
+      "size": 4785,
+      "sha256": "2eeff309658bf8688fd58e7b6726bb931b46d9f319f9d16f731172603416621c"
+    },
+    {
+      "path": "references/content-and-information-architecture.md",
+      "size": 2464,
+      "sha256": "f275b16b3b7b64bba090412320d7c55b30aabaa3451302b31462483d671638a2"
+    },
+    {
+      "path": "references/goal-and-scope.md",
+      "size": 1413,
+      "sha256": "4a5cd3695fd42fd47bf0a5acb638eecbc669ec3a6ed5cf9a3f67fafc6c9bf049"
+    },
+    {
+      "path": "references/official-standards.md",
+      "size": 2268,
+      "sha256": "85b56c579ebb7f162ec76accd3b32bc9ff27922ebbd7028832c212accfecdb02"
+    },
+    {
+      "path": "references/performance-and-cwv.md",
+      "size": 1374,
+      "sha256": "907eb35d01ae950d98a94aa52f03ad30fd969ce50a493630c2a96dd231529253"
+    },
+    {
+      "path": "references/platform-and-implementation.md",
+      "size": 6381,
+      "sha256": "ccf105a2f656edf29fccd41e13d49a6dc12f5f71f78e4daf0ff3aaac938cb95a"
+    },
+    {
+      "path": "references/recovery-and-delivery.md",
+      "size": 1343,
+      "sha256": "c54008566a7d6070a20e8c8878e18a007dafe17158bc12df7100375c920415ba"
+    },
+    {
+      "path": "references/security-privacy-and-forms.md",
+      "size": 1931,
+      "sha256": "e9995839068461008346e499164465aa54766f4ba165f044736ecabed0885d95"
+    },
+    {
+      "path": "references/seo-intelligence-and-audit.md",
+      "size": 6085,
+      "sha256": "4ea62285125d9f4702d292089ca4923ea08145a06ad8e1e06f8c909a7aa59189"
+    },
+    {
+      "path": "references/structured-data-and-local-seo.md",
+      "size": 1462,
+      "sha256": "9609b43e1e4fafda69f77dd4ee2bc9fb3217fa2102c7aa5f0f14609cde1a34e3"
+    },
+    {
+      "path": "references/technical-seo-and-indexability.md",
+      "size": 2132,
+      "sha256": "a53e94a5b4ba8b8ea04cb079c2cb73c6cb0300ba026a6278a5cfdef11e91a7a9"
+    },
+    {
+      "path": "references/ux-accessibility.md",
+      "size": 2183,
+      "sha256": "a2af184927568bfa34d2fbb520c5bccf9bba6104f5f94b4b55c9b1186ee5c7ad"
+    },
+    {
+      "path": "references/verification-and-release-gates.md",
+      "size": 2304,
+      "sha256": "8863e194921ea6d9c5de741c301b38152620200a69db75870bb377e7de17a74b"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "size": 111,
+      "sha256": "778165d245befa65527824295ceb0f01a4e5c2fc6843b05a79918a62ea94e43f"
+    },
+    {
+      "path": "templates/ACCEPTANCE-AND-HANDOVER.md",
+      "size": 1051,
+      "sha256": "506ef9aaec8e970671155376ad324359022f445e8d3cb4bd7dd3b43f59353e18"
+    },
+    {
+      "path": "templates/CONTENT-PUBLICATION-CHECKLIST.md",
+      "size": 1958,
+      "sha256": "7787b914c3a59d4fc64dcb81e3854f9e89d89b50a94e493ac271ac02c708eb07"
+    },
+    {
+      "path": "templates/PAGE-SEO-MATRIX.md",
+      "size": 718,
+      "sha256": "75fa7aa3ba768a94e359a1693fa44d452d48bd208e158fec2f56a7c08aeb692c"
+    },
+    {
+      "path": "templates/SEO-DECISION-LEDGER.md",
+      "size": 1048,
+      "sha256": "07415f6e8bbc64a24adccc7084cc233587c4e994d1a5bcd33b579968e3010d49"
+    },
+    {
+      "path": "templates/SITE-BRIEF.md",
+      "size": 865,
+      "sha256": "6e195696a607405c50c8f5ce43360b556d76008db70035a43e1638e62bb35536"
+    },
+    {
+      "path": "tools/check_manifest.py",
+      "size": 1165,
+      "sha256": "e0a86d7287b40e44ae6106c40c2eb8ba7d771088b346299b29052a2c4b1e201b"
+    },
+    {
+      "path": "tools/render_visual_v03.py",
+      "size": 2149,
+      "sha256": "4311e616b2a424acd57c527498987fb5fc6dd03866ce022c7ced3a00a11f571d"
+    },
+    {
+      "path": "tools/site_preflight.py",
+      "size": 8658,
+      "sha256": "fd206393878f017d742e7d4e83ec28a4b51992ef069a8beca3c239c3a41c1760"
+    },
+    {
+      "path": "tools/test_audit_workflow.py",
+      "size": 1831,
+      "sha256": "d074c02fd12d8a49c4fde86bf6317c7fd95f1a0cfb9b9dd8e88c926eac3dcb5d"
+    },
+    {
+      "path": "tools/test_browser_pilot.py",
+      "size": 6659,
+      "sha256": "8b90652ee198d4a30d2a9feb86bc7ef7b9eab1f44759ae93be71314ff3d97854"
+    },
+    {
+      "path": "tools/test_editorial_contract.py",
+      "size": 3260,
+      "sha256": "b96e859d4fa6e2c85a35e4cfb1c1805578e4878534ea499abcbfccc8db57ee32"
+    },
+    {
+      "path": "tools/test_focus_v03.py",
+      "size": 7908,
+      "sha256": "f30e5712995b09c93584f710b751506bd7a92e37464cf42eec6d68eaec489604"
+    },
+    {
+      "path": "tools/test_http_pilot.py",
+      "size": 1692,
+      "sha256": "bb77b4b5ee894821e416c8e44af8099abc533284814d0e8d4b6b9ba66fd2095f"
+    },
+    {
+      "path": "tools/test_integration_contract.py",
+      "size": 1738,
+      "sha256": "c24d60999284fcdf7a063e14838adc3ec3ef87e0c57863bf61633c89ff123bd3"
+    },
+    {
+      "path": "tools/test_release_delta.py",
+      "size": 2314,
+      "sha256": "659cb688896a78f67442bc0362f08f256027c6cf26989464e149399e0c1d9750"
+    },
+    {
+      "path": "tools/test_render_pilot.py",
+      "size": 4154,
+      "sha256": "33542a0077227d088b820f937975e5911ab0a7d46fb5dedffae927ebc7c70e61"
+    },
+    {
+      "path": "tools/test_site_preflight.py",
+      "size": 2729,
+      "sha256": "201d84d0cdc6fda73013059c98282685ebac38b5dd5c5bbbe72157365164cedd"
+    },
+    {
+      "path": "tools/test_visual_v03.py",
+      "size": 6355,
+      "sha256": "a405a120ce7c2336b0f9a97bb9e2d037238171270f5d88aecf6add024b7b56d4"
+    },
+    {
+      "path": "tools/validate_package.py",
+      "size": 2677,
+      "sha256": "35fca6f796a67dee7ba2f27ccf163c21d6dcfc53bcaba80543b42c9cffec09ee"
+    },
+    {
+      "path": "visual-review/Cinderline-desktop.png",
+      "size": 444603,
+      "sha256": "717ea76bd2d45ca143fcc21919ed9bb052e208cd1247e6e8b4d0c30a148eb349"
+    },
+    {
+      "path": "visual-review/Cinderline-mobile.png",
+      "size": 272034,
+      "sha256": "25d876796458dc1fcb826cb1ac9ff20affbb413081f60ef990c5fba3ceb5074f"
+    },
+    {
+      "path": "visual-review/Clearroom-desktop.png",
+      "size": 566393,
+      "sha256": "26616e2b4580fe9d6b064028234d09c511ceb3be2fd8c814e41c71f03504d4fe"
+    },
+    {
+      "path": "visual-review/Clearroom-mobile.png",
+      "size": 342510,
+      "sha256": "83568e67a90bb34be910b76687b4f639f9e95b84dfab3bd2823c87ceea9d1e96"
+    },
+    {
+      "path": "visual-review/RENDER-ONLY-EVIDENCE.json",
+      "size": 1654,
+      "sha256": "52ce323c105dfaf5d3b17852d187282dca89e741965cd9f2ac570bb6cfaca51a"
+    },
+    {
+      "path": "visual-review/two-redesigns-comparison.png",
+      "size": 502604,
+      "sha256": "39d9fabe4d1241985070349f7087c9c405dd3b8319fbd68e3c35154b9884ad06"
+    },
+    {
+      "path": "visual-review/v03-focus-author/cinderline-375-0.png",
+      "size": 66522,
+      "sha256": "d7f666686dd62657c18e01a27ed2fe3b32b4ac095ee1e62b7c27f7415c69d104"
+    },
+    {
+      "path": "visual-review/v03-focus-author/cinderline-375-10.png",
+      "size": 54709,
+      "sha256": "83860d96e276cac4904b410b7e3fcd45bcf3837fdeb669a599f1d8d0c71df016"
+    },
+    {
+      "path": "visual-review/v03-focus-author/cinderline-375-11.png",
+      "size": 54709,
+      "sha256": "f6c2c8f9606a48a0a0f97189599bfabf14e22b7c3028ea64e469f9dd3ecc656e"
+    },
+    {
+      "path": "visual-review/v03-focus-author/cinderline-375-12.png",
+      "size": 52336,
+      "sha256": "b94400a4deb812a775194cfc90b6d5fe61e77cbb54b3ffbe251c3d8cd301e8fa"
+    },
+    {
+      "path": "visual-review/v03-focus-author/clearroom-375-10.png",
+      "size": 48762,
+      "sha256": "a53ecec671c87854dece1e6f7ec527c9b962cf81c25d0d3cb5f939f21a9da86e"
+    },
+    {
+      "path": "visual-review/v03-focus-author/focus-dom.json",
+      "size": 233650,
+      "sha256": "9a4ebf8b1485d6ea26d624b63a57fb9abab48dabac9fdb5840eb27498f34452d"
+    },
+    {
+      "path": "visual-review/v03-focus-author/focus-live.json",
+      "size": 488,
+      "sha256": "5ece54597cc22cb0b60890e2fe6646665e4e82e19e6450e076d5dbda0a198f82"
+    }
+  ]
+}

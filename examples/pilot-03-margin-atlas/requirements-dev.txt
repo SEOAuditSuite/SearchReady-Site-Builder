@@ -1,0 +1,3 @@
+# Optional packages to reproduce bounded local browser/source checks.
+beautifulsoup4>=4.12,<5
+playwright>=1.55,<2

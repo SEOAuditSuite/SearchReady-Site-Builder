@@ -1,0 +1,77 @@
+{
+  "scope": "D5 dark-surface focus contrast only: DOM-render test, not live URL navigation",
+  "rule": "WCAG 1.4.11 contrast ratio >= 3:1 for visible non-text focus indicator",
+  "counts": {
+    "PASS": 6,
+    "FAIL": 0,
+    "BLOCKED": 0
+  },
+  "checks": [
+    {
+      "name": "pilot01-cta 375px keyboard focus vs dark surface",
+      "status": "PASS",
+      "outline": "rgb(255, 247, 230)",
+      "background": "rgb(24, 59, 54)",
+      "contrast_ratio": 11.47,
+      "required_ratio": 3.0,
+      "focused": true,
+      "outline_width": "3px",
+      "outline_offset": "4px"
+    },
+    {
+      "name": "pilot01-footer 375px keyboard focus vs dark surface",
+      "status": "PASS",
+      "outline": "rgb(255, 247, 230)",
+      "background": "rgb(16, 44, 38)",
+      "contrast_ratio": 13.97,
+      "required_ratio": 3.0,
+      "focused": true,
+      "outline_width": "3px",
+      "outline_offset": "4px"
+    },
+    {
+      "name": "pilot02-closing 375px keyboard focus vs dark surface",
+      "status": "PASS",
+      "outline": "rgb(255, 247, 230)",
+      "background": "rgb(32, 53, 46)",
+      "contrast_ratio": 12.23,
+      "required_ratio": 3.0,
+      "focused": true,
+      "outline_width": "3px",
+      "outline_offset": "4px"
+    },
+    {
+      "name": "pilot01-cta 1440px keyboard focus vs dark surface",
+      "status": "PASS",
+      "outline": "rgb(255, 247, 230)",
+      "background": "rgb(24, 59, 54)",
+      "contrast_ratio": 11.47,
+      "required_ratio": 3.0,
+      "focused": true,
+      "outline_width": "3px",
+      "outline_offset": "4px"
+    },
+    {
+      "name": "pilot01-footer 1440px keyboard focus vs dark surface",
+      "status": "PASS",
+      "outline": "rgb(255, 247, 230)",
+      "background": "rgb(16, 44, 38)",
+      "contrast_ratio": 13.97,
+      "required_ratio": 3.0,
+      "focused": true,
+      "outline_width": "3px",
+      "outline_offset": "4px"
+    },
+    {
+      "name": "pilot02-closing 1440px keyboard focus vs dark surface",
+      "status": "PASS",
+      "outline": "rgb(255, 247, 230)",
+      "background": "rgb(32, 53, 46)",
+      "contrast_ratio": 12.23,
+      "required_ratio": 3.0,
+      "focused": true,
+      "outline_width": "3px",
+      "outline_offset": "4px"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mode": "local HTTP static source",
+  "scope": "Tab traversal including expanded mobile menus; computed contrast and representative screenshots, not pixel-level or WCAG certification",
+  "counts": {
+    "PASS": 0,
+    "FAIL": 0,
+    "BLOCKED": 1
+  },
+  "pages": [],
+  "issues": [
+    "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:43315/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:43315/index.html\", waiting until \"load\"\n"
+  ],
+  "checks": []
+}

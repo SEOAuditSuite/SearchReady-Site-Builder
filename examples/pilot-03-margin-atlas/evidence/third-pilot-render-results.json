@@ -1,0 +1,314 @@
+{
+  "method": "Chromium page.set_content, inline original CSS/JS and data SVG; does NOT prove HTTP URL navigation",
+  "pass": 35,
+  "fail": 0,
+  "checks": [
+    {
+      "name": "a-bench-is-a-small-promise.html@320 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 320,
+        "viewport": 320,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "about.html@320 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 320,
+        "viewport": 320,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "index.html@320 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 320,
+        "viewport": 320,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "journal.html@320 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 320,
+        "viewport": 320,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "the-art-of-noticing.html@320 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 320,
+        "viewport": 320,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "a-bench-is-a-small-promise.html@375 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 375,
+        "viewport": 375,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "about.html@375 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 375,
+        "viewport": 375,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "index.html@375 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 375,
+        "viewport": 375,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "journal.html@375 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 375,
+        "viewport": 375,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "the-art-of-noticing.html@375 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 375,
+        "viewport": 375,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "a-bench-is-a-small-promise.html@768 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 768,
+        "viewport": 768,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "about.html@768 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 768,
+        "viewport": 768,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "index.html@768 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 768,
+        "viewport": 768,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "journal.html@768 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 768,
+        "viewport": 768,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "the-art-of-noticing.html@768 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 768,
+        "viewport": 768,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "a-bench-is-a-small-promise.html@1024 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1024,
+        "viewport": 1024,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "about.html@1024 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1024,
+        "viewport": 1024,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "index.html@1024 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1024,
+        "viewport": 1024,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "journal.html@1024 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1024,
+        "viewport": 1024,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "the-art-of-noticing.html@1024 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1024,
+        "viewport": 1024,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "a-bench-is-a-small-promise.html@1440 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1440,
+        "viewport": 1440,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "about.html@1440 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1440,
+        "viewport": 1440,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "index.html@1440 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1440,
+        "viewport": 1440,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "journal.html@1440 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1440,
+        "viewport": 1440,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "the-art-of-noticing.html@1440 inline-render overflow/H1",
+      "status": "PASS",
+      "detail": {
+        "doc": 1440,
+        "viewport": 1440,
+        "h1": 1,
+        "main": true
+      }
+    },
+    {
+      "name": "Menu: open and aria-expanded true",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Menu: Escape close and focus return",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Closed menu: Escape preserves search focus",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Journal search one result",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Journal search empty state",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Journal search clear",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Dark CTA pale focus ring",
+      "status": "PASS",
+      "detail": {
+        "color": "rgb(255, 247, 230)",
+        "background": "rgb(25, 43, 53)",
+        "focused": true
+      }
+    },
+    {
+      "name": "Dark CTA contrast >=3",
+      "status": "PASS",
+      "detail": 13.7
+    },
+    {
+      "name": "Dark footer pale focus ring",
+      "status": "PASS",
+      "detail": {
+        "color": "rgb(255, 247, 230)",
+        "focused": true
+      }
+    },
+    {
+      "name": "No uncaught JS errors",
+      "status": "PASS",
+      "detail": []
+    }
+  ]
+}

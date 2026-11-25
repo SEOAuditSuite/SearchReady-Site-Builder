@@ -1,0 +1,195 @@
+{
+  "scope": "platform remediation candidate; native delta verification pending",
+  "files": [
+    {
+      "path": "NATIVE-ACCEPTANCE-DELTA.md",
+      "size": 4194,
+      "sha256": "afd3d5eec47ead780a7f5f2bf4d5811ecff15bf5fd6b14ddc99741e68699bf7e"
+    },
+    {
+      "path": "PLATFORM-VERIFICATION.md",
+      "size": 2896,
+      "sha256": "1479d99e20720d7949cee795bc6a97eecbda14f723a79ab1eb67699b9e22ce40"
+    },
+    {
+      "path": "README.md",
+      "size": 4540,
+      "sha256": "29d5a72ca1a94fe23f0211363dba9a8b14929a87cd24e1ee676411e8d7862819"
+    },
+    {
+      "path": "evidence/platform-delta-author.log",
+      "size": 326,
+      "sha256": "58e6a08db0776cbf6395747561d897f3882d30b7fcd030b5b2db0e7e8fa384c0"
+    },
+    {
+      "path": "evidence/source-checks.log",
+      "size": 911,
+      "sha256": "b07cb0a1196d6272cdea16a5a7014ae9a50aa58ff2451fc8e8525fedde519a99"
+    },
+    {
+      "path": "evidence/variant-fixture.json",
+      "size": 508,
+      "sha256": "6ceec783980052d718f4085934c42ef67b0221f3b918566c29477421ac23a889"
+    },
+    {
+      "path": "shopify/paper-spark/assets/theme.css",
+      "size": 2025,
+      "sha256": "6973bf152bf2e70b6eb5e7284f1c71de54bbf9ef6557e54fba93691bfde7ad76"
+    },
+    {
+      "path": "shopify/paper-spark/assets/variants.js",
+      "size": 590,
+      "sha256": "26222b75b054438dd78429ae07667b4672e37808eb9bf716e84ec84b5147dc6b"
+    },
+    {
+      "path": "shopify/paper-spark/config/settings_data.json",
+      "size": 37,
+      "sha256": "e30f303815d5b268d16171480e019bd6ff79900cead86b5ed27685d4646fd605"
+    },
+    {
+      "path": "shopify/paper-spark/config/settings_schema.json",
+      "size": 288,
+      "sha256": "9fb9401edbcc2281474b5b6766654874d2c5c28c3c48cb1886132c4c147c142a"
+    },
+    {
+      "path": "shopify/paper-spark/layout/theme.liquid",
+      "size": 1204,
+      "sha256": "f93640a13aba58749e42fafee80490e75ce2d00e88b81a0feb0a61820a68aa5c"
+    },
+    {
+      "path": "shopify/paper-spark/locales/en.default.json",
+      "size": 126,
+      "sha256": "ef9809e79c2b60df66fcd32164a5568c3495ffb228e3817f40d8191d2124b107"
+    },
+    {
+      "path": "shopify/paper-spark/sections/cart-main.liquid",
+      "size": 781,
+      "sha256": "cc3f655f59ceca42c123105eec36b69f8f72e1d6db9d38afa805102c3aa56b47"
+    },
+    {
+      "path": "shopify/paper-spark/sections/collection-main.liquid",
+      "size": 437,
+      "sha256": "6def58b496aa8376edd23efa9a47b59c8703875c64c66c4778d1998eff65b764"
+    },
+    {
+      "path": "shopify/paper-spark/sections/home-main.liquid",
+      "size": 1186,
+      "sha256": "abb426744fc8a73212ab3db5bc346bd0236114e2f50580c6c0c7b97199cbde9f"
+    },
+    {
+      "path": "shopify/paper-spark/sections/not-found.liquid",
+      "size": 223,
+      "sha256": "74ed51bf237937489a9110b28c080e5e51e5037420c403e7777b87c21cf079ac"
+    },
+    {
+      "path": "shopify/paper-spark/sections/page-main.liquid",
+      "size": 145,
+      "sha256": "b6c80c44e638354e891a996387ce3e4c9078d3b1756b08157248a1d117131732"
+    },
+    {
+      "path": "shopify/paper-spark/sections/product-main.liquid",
+      "size": 1282,
+      "sha256": "651a1dc440f458acaf56514ce36cff356619927ab5747612fcb4b16d6be4947c"
+    },
+    {
+      "path": "shopify/paper-spark/snippets/product-card.liquid",
+      "size": 406,
+      "sha256": "747e2f1166351e55aafe909a78fc51a64108f583b68681c78c4c9697f1a628aa"
+    },
+    {
+      "path": "shopify/paper-spark/templates/404.json",
+      "size": 121,
+      "sha256": "31dab5fdac26c9d5b54d50c4139b44b7626e8ca1ae29bd33b51a4f7785aee070"
+    },
+    {
+      "path": "shopify/paper-spark/templates/cart.json",
+      "size": 121,
+      "sha256": "42d599e7c0c29532960786a8120cdf8f459a0dcb64f308691833e93e4d04ae66"
+    },
+    {
+      "path": "shopify/paper-spark/templates/collection.json",
+      "size": 127,
+      "sha256": "6a6880383651e90e6946177623cf7899423c15caac9d6d70ab4de3771b9fb0e2"
+    },
+    {
+      "path": "shopify/paper-spark/templates/index.json",
+      "size": 121,
+      "sha256": "15e6aa439ac24ee422200128e203764e5d1d7145fa3a4b77370d5e7167697d10"
+    },
+    {
+      "path": "shopify/paper-spark/templates/page.json",
+      "size": 121,
+      "sha256": "49e9ee5a4c4292cc64ada0331fde47d6f6949032c9de185148c7f285a65127be"
+    },
+    {
+      "path": "shopify/paper-spark/templates/product.json",
+      "size": 124,
+      "sha256": "52b7f6e79dfa5c2bd3266e6fcae43b4d0e270c8821727958a669b49e4bdfa438"
+    },
+    {
+      "path": "tools/test_platform_delta.py",
+      "size": 3024,
+      "sha256": "259a063e411749a6678196e50e021a8ca64e6e1a2d2b479671467f01e012a95c"
+    },
+    {
+      "path": "tools/test_platform_source.py",
+      "size": 3854,
+      "sha256": "b49bec67cdadd5a79ec32e1b692565ffcea8594e36cac758ee550e62a48ca639"
+    },
+    {
+      "path": "tools/test_variant_fixture.py",
+      "size": 2531,
+      "sha256": "28b46ce8c1de32f6c3b7f326693db8e92e0ee1e6af12e07f8ae3d5c4eff73a12"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/404.php",
+      "size": 401,
+      "sha256": "c14ef5d2e094fc06a3decf1764203f9994f6d098c298b1003653100daafdf0c3"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/comments.php",
+      "size": 325,
+      "sha256": "732342715b887d439aa781490d32201a71829877a63c25d3b84aa219a3496edf"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/footer.php",
+      "size": 251,
+      "sha256": "80d219949d971899764fb2d2d067f658894f6a4ccd72ca44a4cfbd7818f4aa5b"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/functions.php",
+      "size": 756,
+      "sha256": "5628e1635a70e7ea2a53e05759707a18f3c59571365ff5f345994053e4ca495d"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/header.php",
+      "size": 732,
+      "sha256": "f36d738a119173c72966ba83c8be72969f21c475a607e0662da0b519c9abca35"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/index.php",
+      "size": 963,
+      "sha256": "22baf358f5d11bfc498111641e732e9422d179eeef7450d0207be05433caedff"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/page.php",
+      "size": 410,
+      "sha256": "d34a34789fa0d0bbbb882086966ab9f4e6e8c973385f24c231d29b9934f4f100"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/search.php",
+      "size": 597,
+      "sha256": "49ceb1e565ae46534e7a87b1799fc61fd99b3a5d3f15c164df180fcd87d7ed39"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/single.php",
+      "size": 410,
+      "sha256": "d34a34789fa0d0bbbb882086966ab9f4e6e8c973385f24c231d29b9934f4f100"
+    },
+    {
+      "path": "wordpress/fieldnote-learning/style.css",
+      "size": 2906,
+      "sha256": "4eb673320025396236d3bc23a7927e38eb26d2cf7f2d354731c377e79335d7a0"
+    }
+  ]
+}

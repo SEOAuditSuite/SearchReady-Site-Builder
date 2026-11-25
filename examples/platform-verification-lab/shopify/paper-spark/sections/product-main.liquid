@@ -1,0 +1,7 @@
+{% assign chosen = product.selected_or_first_available_variant %}<article class="product"><div>{% if product.featured_image %}{{ product.featured_image | image_url: width: 960 | image_tag: loading: 'eager' }}{% endif %}</div><div><h1>{{ product.title | escape }}</h1><div>{{ product.description }}</div>{% if chosen %}{% form 'product', product %}<p data-current-price aria-live="polite">{{ chosen.price | money }}</p><label for="Variant-{{ section.id }}">Choose an option</label><select id="Variant-{{ section.id }}" name="id" data-variant-picker>{% for variant in product.variants %}<option value="{{ variant.id }}" data-available="{{ variant.available }}" data-price="{{ variant.price | money | escape }}" {% if variant.id == chosen.id %}selected{% endif %} {% unless variant.available %}disabled{% endunless %}>{{ variant.title | escape }} — {{ variant.price | money }}{% unless variant.available %} — Sold out{% endunless %}</option>{% endfor %}</select><p><button type="submit" data-add {% unless chosen.available %}disabled{% endunless %}>{% if chosen.available %}Add to bag{% else %}Sold out{% endif %}</button></p>{% endform %}{% else %}<p>No available options.</p>{% endif %}</div></article>
+{% schema %}
+{
+  "name": "Product Main",
+  "settings": []
+}
+{% endschema %}
